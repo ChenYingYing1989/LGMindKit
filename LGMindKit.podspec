@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :text => 'LICENSE' }
   s.authors          = { 'BonnieChen' => '861488970@qq.com' }
   s.source           = { :git => 'https://github.com/ChenYingYing1989/LGMindKit.git', :tag => s.version }
-  s.source_files     = 'LGMindKit/**/*.{h,m}'
-  s.resource = 'LGMindKit/Resources/**/*.{png,jpg,xib}'
+  s.source_files     = 'Classes/**/*.{h,m,xib}'
+  s.resources = 'Resources/**/*.{png,jpg}'
   s.platform         = :ios, '13.0'
   # 如果有依赖的第三方库
   s.dependency       'FDFullscreenPopGesture','~>1.1'
@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.dependency       'WMPageController' , '~>2.5.2'
   s.dependency       'AFNetworking' , '~>4.0.1'
   s.dependency       'MJExtension' , '~>3.4.2'
-  s.dependency       'SDWebImage' , '~>5.20.0'
   s.dependency       'MJRefresh' , '~>3.7.9'
   s.dependency       'Masonry' , '~>1.1.0'
   s.requires_arc     = true
