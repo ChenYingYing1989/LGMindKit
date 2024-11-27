@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ChenYingYing1989/LGMindKit.git', :tag => s.version }
   s.source_files     = 'Classes/**/*.{h,m,xib}'
   # s.resources = 'Resources/ball.png'
-  s.platform         = :ios, '13.0'
+  s.platform         = :ios, '12.0'
   # 如果有依赖的第三方库
   s.dependency       'FDFullscreenPopGesture','~>1.1'
   s.dependency       'SDCycleScrollView' , '~>1.82'
