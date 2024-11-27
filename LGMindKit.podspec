@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors          = { 'BonnieChen' => '861488970@qq.com' }
   s.source           = { :git => 'https://github.com/ChenYingYing1989/LGMindKit.git', :tag => s.version }
   s.source_files     = 'Classes/**/*.{h,m,xib}'
-  s.resources = 'Resources/**/*.{png,jpg}'
+  s.resources = 'Resources/ball.png'
   s.platform         = :ios, '13.0'
   # 如果有依赖的第三方库
   s.dependency       'FDFullscreenPopGesture','~>1.1'
