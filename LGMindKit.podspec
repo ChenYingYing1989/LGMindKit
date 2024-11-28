@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
   s.resources = 'Assets.xcassets/**/*'
   
   s.platform         = :ios, '12.0'
+  s.ios.deployment_target = '12.0'
+  s.build_settings = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
   #s.requires_arc     = true
   
-  s.target 'LGMindKit' do |config|
-    config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
-  end
+  
   
   # 如果有依赖的第三方库
   s.dependency       'FDFullscreenPopGesture','~>1.1'
