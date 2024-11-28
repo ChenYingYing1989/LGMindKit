@@ -49,13 +49,6 @@
 //下载文件
 +(void)downloadFileWithFileUrl:(NSString *)url;
 
-/**  webView请求 */
-+(NSURLRequest *)postRequestWebviewWithAction:(NSString *)action withParams:(NSDictionary *)params;
-
-+(NSString *)javaScriptStringWithAction:(NSString *)action withParams:(NSDictionary *)params;
-
-
-+ (NSString *)webSignWithDic:(NSDictionary *)dic;
 //获取时间戳
 +(NSString *)timestampString;
 @end
