@@ -8,6 +8,7 @@
 
 #import "UIView+LGExtension.h"
 #import "UIColor+LGExtension.h"
+#import "NSObject+LGExtension.h"
 @implementation UIView (LGExtension)
 
 -(CGFloat)cornerRidus{
@@ -44,7 +45,7 @@
 /** 判断self和anotherView是否重叠 */
 - (BOOL)overlapWithAnotherView:(UIView *)anotherView{
     //如果anotherView为nil，那么就代表keyWindow
-    if (anotherView == nil) anotherView = LGKeyWindow;
+    if (anotherView == nil) anotherView = [NSObject mainWindow];
     CGRect selfRect = [self convertRect:self.bounds toView:nil];
     CGRect anotherRect = [anotherView convertRect:anotherView.bounds toView:nil];
     //CGRectIntersectsRect是否有交叉
