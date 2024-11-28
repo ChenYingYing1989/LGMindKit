@@ -20,10 +20,6 @@ Pod::Spec.new do |s|
   
   
   # 如果有依赖的第三方库
-  s.dependency       'FDFullscreenPopGesture'
-  s.dependency       'SDCycleScrollView'
-  s.dependency       'IQKeyboardManager'
-  s.dependency       'WMPageController'
   s.dependency       'AFNetworking'
   s.dependency       'MJExtension'
   s.dependency       'SDWebImage'
