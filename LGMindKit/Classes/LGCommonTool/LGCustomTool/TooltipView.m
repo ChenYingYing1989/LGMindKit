@@ -7,7 +7,12 @@
 //
 
 #import "TooltipView.h"
+#import "NSString+LGExtenison.h"
+#import "UIColor+LGExtension.h"
+#import "UILabel+LGExtension.h"
+#import "UIView+LGExtension.h"
 #import "HeaderFile.h"
+#import "Masonry.h"
 
 #define maxWidth   viewPix(200)
 

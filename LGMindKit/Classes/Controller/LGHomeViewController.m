@@ -28,10 +28,10 @@
     bottomView.delegate = self;
     [self.view addSubview:bottomView];
    
-    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage bundleImage:@"navBack"]];
-    imageView.backgroundColor = [UIColor redColor];
-    imageView.frame = CGRectMake(100, 200, 100, 100);
-    [self.view addSubview:imageView];
+//    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage bundleImage:@"navBack"]];
+//    imageView.backgroundColor = [UIColor redColor];
+//    imageView.frame = CGRectMake(100, 200, 100, 100);
+//    [self.view addSubview:imageView];
 }
 
 -(void)bottomButtonTouched{

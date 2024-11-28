@@ -36,7 +36,7 @@
     _type = type;
     if(type == LGPositionTypeTop){
         //第一个
-        self.baseView.cornerRidus = 15;
+        self.baseView.layer.cornerRadius = 15;
         [self.baseView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.contentView).offset(viewPix(8));
             make.bottom.equalTo(self.contentView).offset(16);
@@ -44,7 +44,7 @@
         
     }else if (type == LGPositionTypeMiddle){
         //中间
-        self.baseView.cornerRidus = 0;
+        self.baseView.layer.cornerRadius = 0;
         [self.baseView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.contentView).offset(-1);
             make.bottom.equalTo(self.contentView).offset(1);
@@ -52,14 +52,14 @@
         
     }else if (type == LGPositionTypeBottom){
         //底部
-        self.baseView.cornerRidus = 15;
+        self.baseView.layer.cornerRadius = 15;
         [self.baseView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.contentView).offset(-16);
             make.bottom.equalTo(self.contentView).offset(-viewPix(8));
         }];
         
     }else{
-        self.baseView.cornerRidus = 15;
+        self.baseView.layer.cornerRadius = 15;
         [self.baseView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.contentView).offset(viewPix(8));
             make.bottom.equalTo(self.contentView).offset(-viewPix(8));

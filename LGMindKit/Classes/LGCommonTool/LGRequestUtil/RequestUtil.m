@@ -17,6 +17,7 @@
 #import "LGNavigationController.h"
 #import "MBProgressHUD.h"
 #import "HeaderFile.h"
+#import "NSString+LGExtenison.h"
 @implementation RequestUtil
 
 +(void)withPOST:(NSString *)action parameters:(id)parameters withSign:(BOOL)sign success:(void (^)(id))success failure:(void (^)(NSError *))failure{

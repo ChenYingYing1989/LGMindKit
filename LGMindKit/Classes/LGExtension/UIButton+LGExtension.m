@@ -6,7 +6,9 @@
 //
 
 #import "UIButton+LGExtension.h"
-
+#import "UIColor+LGExtension.h"
+#import "NSString+LGExtenison.h"
+#import "HeaderFile.h"
 @implementation UIButton (LGExtension)
 
 #pragma mark
@@ -160,7 +162,7 @@
     [button setBackgroundColor:[UIColor colorWithHexString:kThemeColor] forState:UIControlStateSelected];
     button.titleLabel.font = LGFontWeight(16, UIFontWeightSemibold);
     [button setTitle:title forState:UIControlStateNormal];
-    button.cornerRidus = 10;
+    button.layer.cornerRadius = 10;
     return button;
 }
 

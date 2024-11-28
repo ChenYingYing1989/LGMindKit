@@ -6,6 +6,9 @@
 //
 
 #import "LGCustomTextView.h"
+#import "NSString+LGExtenison.h"
+#import "UIColor+LGExtension.h"
+#import "UIView+LGExtension.h"
 #import "HeaderFile.h"
 
 @implementation LGCustomTextView
