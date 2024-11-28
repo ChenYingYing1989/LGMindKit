@@ -6,6 +6,7 @@
 //
 
 #import "NSObject+LGExtension.h"
+#import "HeaderFile.h"
 @implementation NSObject (LGExtension)
 
 + (BOOL)isNullOrNilWithObject:(id)object;{

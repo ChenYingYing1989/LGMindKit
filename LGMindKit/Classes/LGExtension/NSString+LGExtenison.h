@@ -6,7 +6,6 @@
 
 #import <Foundation/Foundation.h>
 #import "UILabel+LGExtension.h"
-#import "HeaderFile.h"
 
 @interface NSString (LGExtenison)
 
