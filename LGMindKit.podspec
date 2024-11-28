@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.source_files     = 'Classes/**/*.{h,m}'
   s.resources = 'Resources/**/*.{png,jpg}'
   s.platform         = :ios, '12.0'
+  s.requires_arc     = true
+  
   # 如果有依赖的第三方库
   s.dependency       'FDFullscreenPopGesture','~>1.1'
   s.dependency       'SDCycleScrollView' , '~>1.82'
@@ -19,6 +21,6 @@ Pod::Spec.new do |s|
   s.dependency       'MJExtension' , '~>3.4.2'
   s.dependency       'MJRefresh' , '~>3.7.9'
   s.dependency       'Masonry' , '~>1.1.0'
-  s.requires_arc     = true
+  
 end
 
