@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
   
   
   # 如果有依赖的第三方库
-  s.dependency       'FDFullscreenPopGesture','~>1.1'
-  s.dependency       'SDCycleScrollView' , '~>1.82'
-  s.dependency       'IQKeyboardManager' , '~>6.5.19'
-  s.dependency       'WMPageController' , '~>2.5.2'
-  s.dependency       'AFNetworking' , '~>4.0.1'
-  s.dependency       'MJExtension' , '~>3.4.2'
-  s.dependency       'MJRefresh' , '~>3.7.9'
-  s.dependency       'Masonry' , '~>1.1.0'
+  #s.dependency       'FDFullscreenPopGesture','~>1.1'
+    #s.dependency       'SDCycleScrollView' , '~>1.82'
+    #s.dependency       'IQKeyboardManager' , '~>6.5.19'
+    #s.dependency       'WMPageController' , '~>2.5.2'
+    #s.dependency       'AFNetworking' , '~>4.0.1'
+    #s.dependency       'MJExtension' , '~>3.4.2'
+    #s.dependency       'MJRefresh' , '~>3.7.9'
+    #s.dependency       'Masonry' , '~>1.1.0'
   
 end
 
