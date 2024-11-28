@@ -6,7 +6,7 @@
 //
 
 #import "LGDottedLineView.h"
-#import "UIColor+LGExtension.h"
+
 @implementation LGDottedLineView
 
 - (instancetype)initWithFrame:(CGRect)frame{

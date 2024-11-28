@@ -6,7 +6,7 @@
 //  导航栏
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 
 typedef enum : NSUInteger {
@@ -14,7 +14,7 @@ typedef enum : NSUInteger {
     LGNavigationTypeWhite,
 } LGNavigationType;
 
-@interface LGNavigationView : UIView
+@interface LGNavigationView : LGBaseView
 /**   */
 @property (nonatomic , assign)LGNavigationType type;
 /**   */

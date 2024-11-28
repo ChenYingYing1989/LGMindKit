@@ -6,6 +6,7 @@
 //  Copyright © 2017年 CYY. All rights reserved.
 
 #import <UIKit/UIKit.h>
+#import "LGBaseView.h"
 
 @protocol LGEmptyViewDelegate <NSObject>
 
@@ -15,7 +16,7 @@
 
 @end
 
-@interface LGEmptyView : UIView
+@interface LGEmptyView : LGBaseView
 /**   */
 @property (nonatomic , weak)id <LGEmptyViewDelegate> delegate;
 /**   */

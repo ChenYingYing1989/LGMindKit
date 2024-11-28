@@ -6,7 +6,7 @@
 //
 
 #import "UIButton+LGExtension.h"
-#import "UIColor+LGExtension.h"
+
 @implementation UIButton (LGExtension)
 
 #pragma mark
@@ -79,7 +79,7 @@
     [button setBackgroundColor:[UIColor colorWithHexString:backColor] forState:UIControlStateNormal];
     [button setBackgroundColor:[UIColor colorWithHexString:backColor] forState:UIControlStateHighlighted];
     button.titleLabel.font = titleFont;
-    button.cornerRidus = radius;
+    button.layer.cornerRadius = radius;
     return button;
 }
 
@@ -94,7 +94,7 @@
     [button setBackgroundColor:[UIColor colorWithHexString:backColor] forState:UIControlStateHighlighted];
     [button setImage:[UIImage imageNamed:iconName] forState:UIControlStateNormal];
     button.titleLabel.font = titleFont;
-    button.cornerRidus = radius;
+    button.layer.cornerRadius = radius;
     return button;
 }
 

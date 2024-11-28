@@ -6,10 +6,10 @@
 //  填写分组名称
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGInputAlertView : UIView
+@interface LGInputAlertView : LGBaseView
 /**   */
 @property (nonatomic , copy)void (^groupNameFinished)(NSString *content);
 /**   */

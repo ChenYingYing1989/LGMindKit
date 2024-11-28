@@ -6,7 +6,6 @@
 //  高度:viewPix(16)+15
 
 #import "LGCornerFooterView.h"
-#import "Masonry.h"
 
 @interface LGCornerFooterView()
 

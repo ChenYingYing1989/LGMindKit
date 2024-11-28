@@ -5,7 +5,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "HeaderFile.h"
 @interface NSString (LGExtenison)
 
 @property (readonly) NSString *md5String;

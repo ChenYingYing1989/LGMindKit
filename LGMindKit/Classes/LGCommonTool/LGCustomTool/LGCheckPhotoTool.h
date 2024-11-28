@@ -6,10 +6,10 @@
 //  查看大图
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGCheckPhotoTool : UIView
+@interface LGCheckPhotoTool : LGBaseView
 /**  网络图片地址 */
 @property (nonatomic , strong)NSArray *picArray;
 /**  image数组 */
@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-@interface LGPhotoItemView : UIView
+@interface LGPhotoItemView : LGBaseView
 ///
 @property (nonatomic, copy) void(^hiddenPhotoView)(void);
 /**   */

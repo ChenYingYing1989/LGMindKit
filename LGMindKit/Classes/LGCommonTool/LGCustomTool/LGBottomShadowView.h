@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface LGBottomShadowView : UIView
+#import "LGBaseView.h"
+@interface LGBottomShadowView : LGBaseView
 
 @end

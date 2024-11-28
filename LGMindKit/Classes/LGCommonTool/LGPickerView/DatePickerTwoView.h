@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 @protocol DatePickerViewDelegate <NSObject>
 
@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface DatePickerTwoView : UIView
+@interface DatePickerTwoView : LGBaseView
 
 @property (nonatomic , assign) id<DatePickerViewDelegate>delegate;
 

@@ -8,6 +8,7 @@
 
 #import "ManagerUtil.h"
 #import "RSATool.h"
+#import "HeaderFile.h"
 //公钥
 #define PublicKey @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHP3bjYGpDW7ZWgpFEdOwxfJFAPaW1Ks+bo7WjPGtbkW5rHI8eYh7WhIi+jtiCY4s5rnKgnatzyaLhM01jQJ7Jlmymdb4GCR2VwSM16GGGZDjHbAZBr/AD+49TkLZuMi60miemwqNoqFRBAUP4urlwc1R04zz95eHSwRIpGbgydwIDAQAB"
 

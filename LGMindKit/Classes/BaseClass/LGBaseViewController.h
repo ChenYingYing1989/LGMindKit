@@ -10,8 +10,11 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "LGEmptyView.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
 #import "LGNavigationView.h"
+#import "LGEmptyView.h"
+#import "RequestUtil.h"
+#import "HeaderFile.h"
 @interface LGBaseViewController : UIViewController <LGEmptyViewDelegate>
 /**   */
 @property (nonatomic , strong)LGNavigationView *navigationView;

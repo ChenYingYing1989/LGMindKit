@@ -8,7 +8,7 @@
 
 #import "LGNavigationController.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
-
+#import "HeaderFile.h"
 #import "LGMindHomeController.h"
 
 @interface LGNavigationController ()

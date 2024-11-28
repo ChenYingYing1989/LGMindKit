@@ -6,7 +6,7 @@
 //  地区选择器
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol LGAreaPickerDelegate <NSObject>
@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface LGAreaPickerView : UIView
+@interface LGAreaPickerView : LGBaseView
 /**   */
 @property (nonatomic , assign)id <LGAreaPickerDelegate> delegate;
 /**   */

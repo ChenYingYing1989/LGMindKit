@@ -6,7 +6,7 @@
 //  Copyright © 2019年 CYY or LZH. All rights reserved.
 //
 
-//#import "LGBaseViewController.h"
+#import "LGBaseViewController.h"
 
 @interface LGPostWebViewController : LGBaseViewController
 /**   */

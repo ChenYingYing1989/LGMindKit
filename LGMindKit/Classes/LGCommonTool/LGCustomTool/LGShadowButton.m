@@ -6,7 +6,7 @@
 //
 
 #import "LGShadowButton.h"
-#import "UIColor+LGExtension.h"
+#import "HeaderFile.h"
 @interface LGShadowButton()
 /**   */
 @property (nonatomic , strong)CAGradientLayer *gradLayer;

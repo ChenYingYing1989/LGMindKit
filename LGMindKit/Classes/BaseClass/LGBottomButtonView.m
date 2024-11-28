@@ -6,7 +6,7 @@
 //  底部ButtonView
 
 #import "LGBottomButtonView.h"
-#import "UIColor+LGExtension.h"
+
 @interface LGBottomButtonView()
 /**   */
 @property (nonatomic , strong)UIButton *button1;

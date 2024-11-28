@@ -6,7 +6,7 @@
 //  底部ButtonView
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 
 typedef enum : NSUInteger {
@@ -29,7 +29,7 @@ typedef enum : NSUInteger {
 
 
 
-@interface LGBottomButtonView : UIView
+@interface LGBottomButtonView : LGBaseView
 
 /**   */
 @property (nonatomic , assign)id <LGBottomButtonDelegate> delegate;

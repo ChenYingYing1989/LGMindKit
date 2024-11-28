@@ -8,7 +8,6 @@
 #import "LGHomeViewController.h"
 #import "LGMindHomeController.h"
 #import "LGBottomButtonView.h"
-#import "UIColor+LGExtension.h"
 @interface LGBaseViewController ()<LGBottomButtonDelegate>
 
 

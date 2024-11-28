@@ -46,23 +46,6 @@
             success:(void (^)(id responseData))success
             failure:(void (^)(NSError *error))failure;
 
-/**  上传单张图片 */
-+ (NSURLSessionDataTask *)uploadSingleImage:(NSString *)action
-                               params:(NSDictionary *)params
-                            indexName:(NSString *)name
-                        image:(UIImage *)image
-                              success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                              failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
-
-/**  上传语音 */
-+ (NSURLSessionDataTask *)uploadVioce:(NSString *)URLString
-                             withSign:(BOOL)withSign
-                               params:(NSDictionary *)params
-                            indexName:(NSString *)name
-                            voiceData:(NSData *)data
-                              success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                              failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
-
 //下载文件
 +(void)downloadFileWithFileUrl:(NSString *)url;
 

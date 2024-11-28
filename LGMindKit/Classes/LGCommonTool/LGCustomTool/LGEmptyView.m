@@ -7,7 +7,6 @@
 //
 
 #import "LGEmptyView.h"
-#import "Masonry.h"
 #import "MBProgressHUD.h"
 
 #define viewWidth    self.bounds.size.width

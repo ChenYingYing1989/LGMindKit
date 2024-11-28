@@ -10,9 +10,7 @@
  */
 
 #import "LGBaseViewController.h"
-#import "UINavigationController+FDFullscreenPopGesture.h"
-#import "Masonry.h"
-#import "UIColor+LGExtension.h"
+
 
 @interface LGBaseViewController ()
 

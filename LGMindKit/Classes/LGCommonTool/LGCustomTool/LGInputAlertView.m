@@ -7,8 +7,9 @@
 
 #import "LGInputAlertView.h"
 #import <IQKeyboardManager/IQKeyboardManager.h>
-#import "UIColor+LGExtension.h"
-#import "Masonry.h"
+//#import "UIColor+LGExtension.h"
+//#import "HeaderFile.h"
+//#import "Masonry.h"
 @interface LGInputAlertView()
 
 /**   */

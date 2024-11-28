@@ -6,10 +6,10 @@
 //  虚线
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGDottedLineView : UIView
+@interface LGDottedLineView : LGBaseView
 
 /**   */
 @property (nonatomic , copy)NSString *lineColor;

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 @protocol LGPickerViewDelegate <NSObject>
 //只有下标数组
 -(void)selectPickerViewIndex:(NSArray *)indexArray;
@@ -18,7 +18,7 @@
 
 @end
 
-@interface LGPickerView : UIView
+@interface LGPickerView : LGBaseView
 /**   */
 @property (nonatomic , assign)id <LGPickerViewDelegate> delegate;
 /**   */

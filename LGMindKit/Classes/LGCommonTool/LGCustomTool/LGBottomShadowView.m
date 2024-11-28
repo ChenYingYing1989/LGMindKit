@@ -7,7 +7,7 @@
 //  主页底部渐变色
 
 #import "LGBottomShadowView.h"
-#import "UIColor+LGExtension.h"
+
 @implementation LGBottomShadowView
 
 - (instancetype)initWithFrame:(CGRect)frame{

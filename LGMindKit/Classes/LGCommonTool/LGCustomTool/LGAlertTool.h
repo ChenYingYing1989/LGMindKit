@@ -6,7 +6,7 @@
 //  类似于系统的白色弹框 ， 有取消、确定按钮 ， 有标题、内容
 
 #import <Foundation/Foundation.h>
-
+#import "LGBaseView.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LGAlertTool : NSObject
@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface LGAlertView : UIView
+@interface LGAlertView : LGBaseView
 /**   */
 @property (nonatomic , copy)void(^sureAction)(void);
 /**   */

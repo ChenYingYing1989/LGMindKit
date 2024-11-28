@@ -8,14 +8,14 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "LGBaseView.h"
 @protocol DatePickerViewDelegate <NSObject>
 
 -(void)sendSelectDate:(NSString *)date index:(NSInteger)index;
 
 @end
 
-@interface DatePickerView : UIView
+@interface DatePickerView : LGBaseView
 
 @property (nonatomic , assign) id<DatePickerViewDelegate>delegate;
 /**   */

@@ -7,7 +7,7 @@
 //
 
 #import "LGPickerViewMax.h"
-#import "Masonry.h"
+
 @interface LGPickerViewMax ()<UIPickerViewDelegate,UIPickerViewDataSource>
 /**   */
 @property (nonatomic , strong)UIView *baseView;
