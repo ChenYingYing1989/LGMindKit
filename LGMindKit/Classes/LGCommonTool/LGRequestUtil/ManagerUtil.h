@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 leiyi. All rights reserved.
 //
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface ManagerUtil : NSObject
 
