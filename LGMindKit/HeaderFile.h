@@ -8,7 +8,7 @@
 #ifndef HeaderFile_h
 #define HeaderFile_h
 /**  类目 */
-#import "UIImage+Color.h"
+#import "UIImage+LGExtension.h"
 #import "UIColor+LGExtension.h"
 #import "NSString+LGExtenison.h"
 #import "NSObject+LGExtension.h"

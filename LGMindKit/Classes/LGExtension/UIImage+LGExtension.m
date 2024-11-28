@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 www.skyfox.org. All rights reserved.
 //
 
-#import "UIImage+Color.h"
+#import "UIImage+LGExtension.h"
 
-@implementation UIImage (Color)
+@implementation UIImage (LGExtension)
 /**
  *  @brief  根据颜色生成纯色图片
  *

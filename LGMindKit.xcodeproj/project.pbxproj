@@ -60,7 +60,7 @@
 		7CCF7EAC2CF81A8C006AC48A /* NSString+LGExtenison.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E742CF81A8C006AC48A /* NSString+LGExtenison.m */; };
 		7CCF7EAD2CF81A8C006AC48A /* UIButton+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E762CF81A8C006AC48A /* UIButton+LGExtension.m */; };
 		7CCF7EAE2CF81A8C006AC48A /* UIColor+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E782CF81A8C006AC48A /* UIColor+LGExtension.m */; };
-		7CCF7EAF2CF81A8C006AC48A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E7A2CF81A8C006AC48A /* UIImage+Color.m */; };
+		7CCF7EAF2CF81A8C006AC48A /* UIImage+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E7A2CF81A8C006AC48A /* UIImage+LGExtension.m */; };
 		7CCF7EB02CF81A8C006AC48A /* UILabel+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */; };
 		7CCF7EB12CF81A8C006AC48A /* UIView+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E7E2CF81A8C006AC48A /* UIView+LGExtension.m */; };
 /* End PBXBuildFile section */
@@ -170,8 +170,8 @@
 		7CCF7E762CF81A8C006AC48A /* UIButton+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGExtension.m"; sourceTree = "<group>"; };
 		7CCF7E772CF81A8C006AC48A /* UIColor+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LGExtension.h"; sourceTree = "<group>"; };
 		7CCF7E782CF81A8C006AC48A /* UIColor+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LGExtension.m"; sourceTree = "<group>"; };
-		7CCF7E792CF81A8C006AC48A /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		7CCF7E7A2CF81A8C006AC48A /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		7CCF7E792CF81A8C006AC48A /* UIImage+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGExtension.h"; sourceTree = "<group>"; };
+		7CCF7E7A2CF81A8C006AC48A /* UIImage+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGExtension.m"; sourceTree = "<group>"; };
 		7CCF7E7B2CF81A8C006AC48A /* UILabel+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LGExtension.h"; sourceTree = "<group>"; };
 		7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LGExtension.m"; sourceTree = "<group>"; };
 		7CCF7E7D2CF81A8C006AC48A /* UIView+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGExtension.h"; sourceTree = "<group>"; };
@@ -387,8 +387,8 @@
 				7CCF7E762CF81A8C006AC48A /* UIButton+LGExtension.m */,
 				7CCF7E772CF81A8C006AC48A /* UIColor+LGExtension.h */,
 				7CCF7E782CF81A8C006AC48A /* UIColor+LGExtension.m */,
-				7CCF7E792CF81A8C006AC48A /* UIImage+Color.h */,
-				7CCF7E7A2CF81A8C006AC48A /* UIImage+Color.m */,
+				7CCF7E792CF81A8C006AC48A /* UIImage+LGExtension.h */,
+				7CCF7E7A2CF81A8C006AC48A /* UIImage+LGExtension.m */,
 				7CCF7E7B2CF81A8C006AC48A /* UILabel+LGExtension.h */,
 				7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */,
 				7CCF7E7D2CF81A8C006AC48A /* UIView+LGExtension.h */,
@@ -568,7 +568,7 @@
 				7CCF7E8D2CF81A8C006AC48A /* LGCalculateTool.m in Sources */,
 				7CCF7E902CF81A8C006AC48A /* LGCollectionViewLayout.m in Sources */,
 				7CCF7EA72CF81A8C006AC48A /* RequestUtil.m in Sources */,
-				7CCF7EAF2CF81A8C006AC48A /* UIImage+Color.m in Sources */,
+				7CCF7EAF2CF81A8C006AC48A /* UIImage+LGExtension.m in Sources */,
 				7CCF7EB12CF81A8C006AC48A /* UIView+LGExtension.m in Sources */,
 				7CCF7E922CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.m in Sources */,
 				7CCF7E9E2CF81A8C006AC48A /* DatePickerTwoView.m in Sources */,

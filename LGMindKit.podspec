@@ -8,13 +8,12 @@ Pod::Spec.new do |s|
   s.authors          = { 'BonnieChen' => '861488970@qq.com' }
   s.source           = { :git => 'https://github.com/ChenYingYing1989/LGMindKit.git', :tag => s.version }
   s.source_files     = 'LGMindKit/Classes/**/*.{h,m}'
-  
+  s.public_header_files = 'LGMindKit/Classes/PrefixHeader.pch'
   # 确保资源文件路径正确
   s.resources = 'LGMindKit/Assets.xcassets/**/*'
   
   s.platform         = :ios, '12.0'
-  #s.ios.deployment_target = '12.0'
-  #s.build_settings = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
+  
   #s.requires_arc     = true
   
   
