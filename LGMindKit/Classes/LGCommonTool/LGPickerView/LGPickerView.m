@@ -7,7 +7,7 @@
 //
 
 #import "LGPickerView.h"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 @interface LGPickerView ()<UIPickerViewDelegate,UIPickerViewDataSource>
 /**   */
 @property (nonatomic , strong)UIView *baseView;

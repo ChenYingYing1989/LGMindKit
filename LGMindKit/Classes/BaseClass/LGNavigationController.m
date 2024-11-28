@@ -7,7 +7,7 @@
 //
 
 #import "LGNavigationController.h"
-#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
 #import "LGMindHomeController.h"
 

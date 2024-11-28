@@ -7,7 +7,7 @@
 //
 
 #import "TooltipView.h"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 #define maxWidth   viewPix(200)
 
 @implementation TooltipView

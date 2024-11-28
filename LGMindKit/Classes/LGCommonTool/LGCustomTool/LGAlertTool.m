@@ -6,7 +6,7 @@
 //
 
 #import "LGAlertTool.h"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 #import "UIColor+LGExtension.h"
 @implementation LGAlertTool
 

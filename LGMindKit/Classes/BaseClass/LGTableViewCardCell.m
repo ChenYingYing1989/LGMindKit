@@ -6,7 +6,7 @@
 //  边距16 、 带阴影 、 卡片式Cell
 
 #import "LGTableViewCardCell.h"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 
 @interface LGTableViewCardCell()
 

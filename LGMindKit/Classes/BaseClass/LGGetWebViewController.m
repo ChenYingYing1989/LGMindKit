@@ -6,7 +6,7 @@
 //
 
 #import "LGGetWebViewController.h"
-#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
 #import <WebKit/WebKit.h>
 #import "UIColor+LGExtension.h"
 //加载

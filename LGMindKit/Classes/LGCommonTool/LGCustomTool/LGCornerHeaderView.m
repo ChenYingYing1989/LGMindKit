@@ -6,7 +6,7 @@
 //  高度:viewPix(16)+15
 
 #import "LGCornerHeaderView.h"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 @implementation LGCornerHeaderView
 
 - (instancetype)initWithFrame:(CGRect)frame{

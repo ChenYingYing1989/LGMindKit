@@ -7,7 +7,7 @@
 //
 
 #import "LGPostWebViewController.h"
-#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
 #import "UIColor+LGExtension.h"
 //自定义导航
 #import "LGNavigationView.h"
