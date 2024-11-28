@@ -18,7 +18,14 @@ Pod::Spec.new do |s|
   
   
   # 如果有依赖的第三方库
-  #s.dependency       'AFNetworking'
+  s.dependency       'FDFullscreenPopGesture'
+  s.dependency       'SDCycleScrollView'
+  s.dependency       'IQKeyboardManager'
+  s.dependency       'WMPageController'
+  s.dependency       'MBProgressHUD'
+  s.dependency       'AFNetworking'
+  s.dependency       'SDWebImage'
+  s.dependency       'Masonry'
   
 end
 
