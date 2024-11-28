@@ -6,7 +6,7 @@
 //
 
 #import "LGCustomTextView.h"
-
+#import "UIColor+LGExtension.h"
 
 
 @implementation LGCustomTextView

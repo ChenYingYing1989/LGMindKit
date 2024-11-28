@@ -6,7 +6,7 @@
 //
 
 #import "LGNavigationView.h"
-
+#import "UIColor+LGExtension.h"
 @implementation LGNavigationView
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];

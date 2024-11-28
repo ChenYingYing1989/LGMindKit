@@ -6,6 +6,7 @@
 //
 
 #import "LGBottomSheetView.h"
+#import "UIColor+LGExtension.h"
 #import <Masonry/Masonry.h>
 @interface LGBottomSheetView()<LGBottomButtonDelegate>
 /**   */

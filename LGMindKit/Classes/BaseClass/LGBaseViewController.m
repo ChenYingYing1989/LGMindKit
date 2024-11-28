@@ -12,6 +12,7 @@
 #import "LGBaseViewController.h"
 #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 #import <Masonry/Masonry.h>
+#import "UIColor+LGExtension.h"
 
 @interface LGBaseViewController ()
 

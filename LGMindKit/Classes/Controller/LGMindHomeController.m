@@ -7,7 +7,7 @@
 
 #import "LGMindHomeController.h"
 
-
+#import "UIColor+LGExtension.h"
 #import "LGHomeViewController.h"
 #import "LGBottomButtonView.h"
 

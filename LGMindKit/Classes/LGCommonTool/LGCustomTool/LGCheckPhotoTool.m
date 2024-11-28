@@ -6,6 +6,7 @@
 //  查看大图
 
 #import "LGCheckPhotoTool.h"
+#import "UIColor+LGExtension.h"
 #import <SDWebImage/SDWebImage.h>
 #define picTop      (statusBarHeight+viewPix(20))
 #define picWidth    (Screen_W)

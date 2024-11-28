@@ -7,7 +7,7 @@
 //
 
 #import "UIView+LGExtension.h"
-
+#import "UIColor+LGExtension.h"
 @implementation UIView (LGExtension)
 
 -(CGFloat)cornerRidus{

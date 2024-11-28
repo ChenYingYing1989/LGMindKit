@@ -7,6 +7,7 @@
 
 #import "LGAlertTool.h"
 #import <Masonry/Masonry.h>
+#import "UIColor+LGExtension.h"
 @implementation LGAlertTool
 
 +(void)alertWithTitle:(NSString *)title content:(NSString *)content sureAction:(void(^)(void))action{

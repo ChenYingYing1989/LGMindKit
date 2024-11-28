@@ -7,6 +7,7 @@
 //
 
 #import "LGWebProgressView.h"
+#import "UIColor+LGExtension.h"
 #import <UIKit/UIKit.h>
 static NSTimeInterval const tiemInterval = 0.01;
 @implementation LGWebProgressView{

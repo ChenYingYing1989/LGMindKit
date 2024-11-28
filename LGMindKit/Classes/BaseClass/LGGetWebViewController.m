@@ -8,6 +8,7 @@
 #import "LGGetWebViewController.h"
 #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 #import <WebKit/WebKit.h>
+#import "UIColor+LGExtension.h"
 //加载
 //#import "LGXLDotLoading.h"
 //自定义导航
