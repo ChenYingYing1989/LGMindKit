@@ -7,7 +7,6 @@
 //
 
 #import "TooltipView.h"
-
 #import "HeaderFile.h"
 
 #define maxWidth   viewPix(200)

@@ -192,24 +192,24 @@
 }
 
 
-+(UIImage *)imageWithName:(NSString *)imageName{
-    UIImage *image = [UIImage new];
-    NSString *imagePath = [NSString stringWithFormat:@"%@@3x",imageName];
-    NSString *path = [[NSBundle mainBundle] pathForResource:imagePath ofType:@"png"];
-    if (path) {
-        image = [UIImage imageWithContentsOfFile:path];
-    }
-    return image;
-}
-
-+(UIImage *)bundleImage:(NSString *)imageName{
-    UIImage *image = [UIImage new];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Resource" ofType:@"bundle"];
-    NSBundle *bundle = [NSBundle bundleWithPath:path];
-    if (bundle) {
-        image = [UIImage imageNamed:imageName inBundle:bundle withConfiguration:nil];
-    }
-    return image;
-}
+//+(UIImage *)imageWithName:(NSString *)imageName{
+//    UIImage *image = [UIImage new];
+//    NSString *imagePath = [NSString stringWithFormat:@"%@@3x",imageName];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:imagePath ofType:@"png"];
+//    if (path) {
+//        image = [UIImage imageWithContentsOfFile:path];
+//    }
+//    return image;
+//}
+//
+//+(UIImage *)bundleImage:(NSString *)imageName{
+//    UIImage *image = [UIImage new];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"Resource" ofType:@"bundle"];
+//    NSBundle *bundle = [NSBundle bundleWithPath:path];
+//    if (bundle) {
+//        image = [UIImage imageNamed:imageName inBundle:bundle withConfiguration:nil];
+//    }
+//    return image;
+//}
 
 @end

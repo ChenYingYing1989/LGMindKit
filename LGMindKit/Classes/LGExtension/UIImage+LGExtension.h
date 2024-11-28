@@ -54,8 +54,8 @@
 -(UIImage*)scaleToSize:(CGSize)size;
 
 
-+(UIImage *)imageWithName:(NSString *)imageName;
-
-+(UIImage *)bundleImage:(NSString *)imageName;
+//+(UIImage *)imageWithName:(NSString *)imageName;
+//
+//+(UIImage *)bundleImage:(NSString *)imageName;
 
 @end
