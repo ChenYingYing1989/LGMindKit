@@ -6,6 +6,7 @@
 //  底部弹框：圆弧背景 、 标题 、 关闭按钮 、 底部按钮
 
 #import <UIKit/UIKit.h>
+#import "LGBottomButtonView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

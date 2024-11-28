@@ -7,8 +7,8 @@
 //
 
 #import "LGEmptyView.h"
-#import <Masonry/Masonry.h>
-#import <MBProgressHUD/MBProgressHUD.h>
+#import "Masonry.h"
+#import "MBProgressHUD.h"
 
 #define viewWidth    self.bounds.size.width
 #define viewHeight   self.bounds.size.height

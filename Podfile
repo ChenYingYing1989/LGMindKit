@@ -10,6 +10,7 @@ target 'LGMindKit' do
     pod 'SDCycleScrollView'
     pod 'IQKeyboardManager'
     pod 'WMPageController'
+    pod 'MBProgressHUD'
     pod 'AFNetworking'
     pod 'MJExtension'
     pod 'SDWebImage'

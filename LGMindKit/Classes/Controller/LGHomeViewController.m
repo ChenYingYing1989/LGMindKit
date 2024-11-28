@@ -7,7 +7,7 @@
 
 #import "LGHomeViewController.h"
 #import "LGMindHomeController.h"
-
+#import "LGBottomButtonView.h"
 @interface LGBaseViewController ()<LGBottomButtonDelegate>
 
 

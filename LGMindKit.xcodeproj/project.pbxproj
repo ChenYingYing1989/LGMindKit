@@ -49,7 +49,7 @@
 		7CCF7EA12CF81A8C006AC48A /* LGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E5B2CF81A8C006AC48A /* LGPickerView.m */; };
 		7CCF7EA22CF81A8C006AC48A /* LGPickerViewMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E5D2CF81A8C006AC48A /* LGPickerViewMax.m */; };
 		7CCF7EA32CF81A8C006AC48A /* DESTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E602CF81A8C006AC48A /* DESTool.m */; };
-		7CCF7EA42CF81A8C006AC48A /* LGDeviceID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E622CF81A8C006AC48A /* LGDeviceID.m */; };
+		7CCF7EA42CF81A8C006AC48A /* LGDeviceID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E622CF81A8C006AC48A /* LGDeviceID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7CCF7EA52CF81A8C006AC48A /* ManagerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E642CF81A8C006AC48A /* ManagerUtil.m */; };
 		7CCF7EA62CF81A8C006AC48A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E662CF81A8C006AC48A /* Reachability.m */; };
 		7CCF7EA72CF81A8C006AC48A /* RequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E682CF81A8C006AC48A /* RequestUtil.m */; };
@@ -176,6 +176,8 @@
 		7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LGExtension.m"; sourceTree = "<group>"; };
 		7CCF7E7D2CF81A8C006AC48A /* UIView+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGExtension.h"; sourceTree = "<group>"; };
 		7CCF7E7E2CF81A8C006AC48A /* UIView+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGExtension.m"; sourceTree = "<group>"; };
+		7CCF7EB22CF83D3B006AC48A /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		7CCF7EB32CF83D8E006AC48A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		833B84F6AEC2082B7D8D780C /* Pods_LGMindKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGMindKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -238,6 +240,8 @@
 				7CCF7E812CF81A8C006AC48A /* Classes */,
 				7CCF7E092CF81657006AC48A /* Main.storyboard */,
 				7CCF7E0C2CF81658006AC48A /* Assets.xcassets */,
+				7CCF7EB22CF83D3B006AC48A /* HeaderFile.h */,
+				7CCF7EB32CF83D8E006AC48A /* PrefixHeader.pch */,
 				7CCF7E0E2CF81658006AC48A /* LaunchScreen.storyboard */,
 				7CCF7E112CF81658006AC48A /* Info.plist */,
 				7CCF7E122CF81658006AC48A /* main.m */,
@@ -728,6 +732,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DKB6WAGD7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LGMindKit/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LGMindKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -757,6 +763,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DKB6WAGD7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LGMindKit/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LGMindKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

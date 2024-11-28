@@ -7,6 +7,10 @@
 
 #import "LGMindHomeController.h"
 
+
+#import "LGHomeViewController.h"
+#import "LGBottomButtonView.h"
+
 #import <CoreBluetooth/CoreBluetooth.h>
 
 @interface LGMindHomeController()<LGBottomButtonDelegate,CBCentralManagerDelegate,CBPeripheralManagerDelegate,CBPeripheralDelegate>

@@ -7,7 +7,7 @@
 
 //#import "LGBaseViewController.h"
 
-#import <LGMindKit/LGBaseViewController.h>
+#import "LGBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

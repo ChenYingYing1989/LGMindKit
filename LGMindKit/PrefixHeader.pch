@@ -1,0 +1,235 @@
+//
+//  LGPrefixHeader.pch
+//  LGBaseClassTool
+//
+//  Created by mac on 2021/8/28.
+//  @TGS#2IZYMMRPZ
+//  @TGS#2IZYMMRPZ
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "HeaderFile.h"
+
+
+#define BaseUrl         @"https://xl365.sleepclinic.cn:8088/"  //测试
+//#define BaseUrl         @"https://dtx.yanzhuhealth.com"         //正式
+
+
+//圆荷健康
+#if Target_YHJK
+#define headCode        @"1"
+#define AppTitle        @"圆荷健康"
+#define AppIcon         @"appIcon_YHJK"
+#define loginLogo       @"loginLogo_YHJK"
+#define AgreementLink   @"https://xl365.sleepclinic.cn:8088/H5/#/document?agreement_id=6"
+#define PrivacyLink     @"https://xl365.sleepclinic.cn:8088/H5/#/document?agreement_id=7"
+#define AppLink         @"https://apps.apple.com/cn/app/%E5%9C%86%E8%8D%B7%E5%81%A5%E5%BA%B7/id6630365771"
+#if DEBUG
+#define certificateID   43905 //开发
+#else
+#define certificateID   43904 //生产
+#endif
+//#define BundleId        @"com.yanzhuhealth.intedtx"  其他信息：info.plist文件里APP名字、launchScreen 、 appLogo
+
+//心律助手
+#elif Target_XLZS
+#define headCode        @"3"
+#define AppIcon         @"appIcon_XLZS"
+#define loginLogo       @"loginLogo_XLZS"
+#define AppTitle        @"心律助手"
+#define AppLink         @"https://apps.apple.com/cn/app/%E5%BF%83%E5%BE%8B%E5%8A%A9%E6%89%8B/id6648779495"
+#define AgreementLink   @"https://xl365.sleepclinic.cn:8088/H5/#/document?agreement_id=16"
+#define PrivacyLink     @"https://xl365.sleepclinic.cn:8088/H5/#/document?agreement_id=18"
+#if DEBUG
+#define certificateID   43907 //开发
+#else
+#define certificateID   43906 //生产
+#endif
+//#define BundleId        @"com.yanzhuhealth.xinlvan"   其他信息：info.plist文件里APP名字、launchScreen 、 appLogo
+
+
+//心康管家
+#elif Target_XKGJ
+#define headCode        @"3"
+#define AppIcon         @"appIcon_XKGJ"
+#define loginLogo       @"loginLogo_XKGJ"
+#define AppTitle        @"心康管家"
+#define AppLink         @"https://apps.apple.com/cn/app/%E5%BF%83%E5%BA%B7%E7%AE%A1%E5%AE%B6/id6504738061"
+#define AgreementLink   @"https://xl365.sleepclinic.cn:8088/H5/#/document?agreement_id=16"
+#define PrivacyLink     @"https://xl365.sleepclinic.cn:8088/H5/#/document?agreement_id=18"
+#if DEBUG
+#define certificateID   43864 //开发
+#else
+#define certificateID   43863 //生产
+#endif
+
+#else
+
+#endif
+
+
+#define Authorization     @"Basic c2Fub2ZpYWRtaW46c2Fub2ZpYWRtaW5fc2VjcmV0"
+
+//移动推送
+#define XGDomainName      @"tpns.sh.tencent.com"
+#define XGAccessID        1680003649
+#define XGAccessKey       @"IFDTRORHAPED"
+//即时通讯
+#define TUIAppId          1400792574
+#define TUISecretKey      @"77e0c0d3437e6710742439904b8d9e83d37ca3a0154d1e883f9d857bb2895a41"
+
+#define WXPayKey          @"wx7c0997f9d9a51569"
+#define WXPaySecret       @"04fbb9b6074df723d580cd9a0a405049"
+#define UniversalLink     @"https://samddev.yanzhuhealth.com/yanzhuhealth/"
+
+/**  本地存储字段 */
+//是否规避审核
+#define kIsFree         [[NSUserDefaults standardUserDefaults] objectForKey:@"isFree"]
+#define kAgreement      [[NSUserDefaults standardUserDefaults] objectForKey:@"userAgreement"]//用户协议
+#define kPrivacy        [[NSUserDefaults standardUserDefaults] objectForKey:@"privacyAgreement"]//隐私协议
+
+#define kIsLogin        [[NSUserDefaults standardUserDefaults] objectForKey:@"islogin"]
+#define kUserId         [[NSUserDefaults standardUserDefaults] objectForKey:@"userid"]
+#define kPhone          [[NSUserDefaults standardUserDefaults] objectForKey:@"phone"]
+#define kToken          [[NSUserDefaults standardUserDefaults] objectForKey:@"utoken"]?[[NSUserDefaults standardUserDefaults] objectForKey:@"utoken"]:@""
+
+
+#define kCardId         [[NSUserDefaults standardUserDefaults] objectForKey:@"idCard"]
+//99:队长医生   10:专家医生  11:进修医生  40:康复医生  20:护士  30:个案管理师    100:其他
+#define kRoleId         [[NSUserDefaults standardUserDefaults] objectForKey:@"roleId"]
+#define kRoleName       [[NSUserDefaults standardUserDefaults] objectForKey:@"roleName"]
+#define kRealName       [[NSUserDefaults standardUserDefaults] objectForKey:@"realname"]
+
+
+
+#define XGUserId        [[NSUserDefaults standardUserDefaults] objectForKey:@"XGUserId"]
+#define XGUserSign      [[NSUserDefaults standardUserDefaults] objectForKey:@"usersign"]
+#define XGToken         [[NSUserDefaults standardUserDefaults] objectForKey:@"XGToken"]?[[NSUserDefaults standardUserDefaults] objectForKey:@"XGToken"]:@""
+
+
+
+/**  取本地图片 */
+#define LGImagePath              [[NSBundle mainBundle]pathForResource:@"image" ofType:@"bundle"]
+#define LGImageName(imageName)   [LGImagePath stringByAppendingPathComponent:imageName]
+
+#define defaultPatientMan          [UIImage imageNamed:@"默认患者男"]
+#define defaultPatientWomen        [UIImage imageNamed:@"默认患者女"]
+#define defaultDoctorPic           [UIImage imageNamed:@"默认头像医生"]
+#define defaultNursePic            [UIImage imageNamed:@"默认头像护士"]
+//空白页
+#define LGErrorMessage             @"未请求到数据"
+#define LGEmptyPicName             @"emptyView"
+#define LGEmptyPicName2            @"emptyView2"
+/* 屏幕尺寸 */
+#define Screen_W   [UIScreen mainScreen].bounds.size.width
+#define Screen_H   [UIScreen mainScreen].bounds.size.height
+
+#define tmpScreenW  MIN(Screen_W, Screen_H)
+#define tmpScreenH  MAX(Screen_W, Screen_H)
+
+//判断是否为iPad
+#define isPad        NO  //([[UIDevice currentDevice].model isEqualToString:@"iPad"]?YES:NO)
+
+#define LGPercent    (isPad ? (tmpScreenW/768):(tmpScreenW/375.0))   //用于适配iPad
+
+//#define LGPercent   (tmpScreenW/375.0)
+
+#define viewPix(a)  round((a)*LGPercent)
+
+#define LGImageHeight(imageW,percent)  ((imageW)/percent)
+
+/**6
+ *iPhoneX系列
+ *不带刘海：tmpScreenW/tmpScreenH = 0.56...
+ *带刘海：tmpScreenW/tmpScreenH = 0.46...
+ */
+#define isIPhoneX            ((tmpScreenW/tmpScreenH < 0.5)?YES:NO)
+#define bottomSafeBarHeight  (isIPhoneX ? 34 : 0) //底部安全高度
+#define iPhoneXMargin(a)     (isIPhoneX ? (a) : 0) //iPhoneX系列单独修改的距离
+#define iPhone5sMargin(a)    (Screen_H == 568.0 ? (a) : 0) //5代机
+#define iPadMargin(a)        (isPad ? viewPix(a) : 0)
+
+
+
+//keyWindow
+#define LGKeyWindow           [NSObject mainWindow]
+
+//状态栏高度
+#define statusBarHeight        [[UIApplication sharedApplication] statusBarFrame].size.height
+#define hiddenStatusBarHeight  (isIPhoneX ? 44 : 20) //状态栏隐藏时statusBarFrame的高度是0，则通过此方法获取
+
+//tabBar高度
+#define tabBarHeight   self.tabBarController.tabBar.frame.size.height
+
+//top高度
+#define topBarHeight   (((statusBarHeight>0)?statusBarHeight:hiddenStatusBarHeight)+44)
+
+#define kThemeColor           @"#5E8EF5"
+
+//导航栏设置
+#define kNavBgColor           [UIColor colorWithHexString:@"#E5F1FF"]
+#define kNavBackImage         [UIImage imageNamed:@"navBack"]
+#define kNavBackImageWhite    [UIImage imageNamed:@"navBackWhite"]
+#define kNavTitleColor        [UIColor colorWithHexString:@"#333333"]
+#define kNavTitleColorWhite   [UIColor colorWithHexString:@"#FFFFFF"]
+#define kNavShadowColor       [UIColor colorWithHexString:@"#EDF0F0"]
+#define kNavTitleFont         [UIFont systemFontOfSize:16 weight:UIFontWeightSemibold]
+
+
+#define kMaxX(X) CGRectGetMaxX(X)
+#define kMaxY(Y) CGRectGetMaxY(Y)
+#define kMinX(X) CGRectGetMinX(X)
+#define kMinY(Y) CGRectGetMinY(Y)
+
+
+#define LGNSString(a) [NSString stringWithFormat:@"%@",a]
+
+
+/* 颜色 */
+#define LGStringColor(string)   [UIColor colorWithString:string]
+#define RGBAColor(r,g,b,a)      [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define RGBColor(r, g, b)       RGBAColor(r,g,b,1.0)
+#define RandomColor             RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+/*  适配文字大小 */
+//static inline CGFloat FontSize(CGFloat fontSize){
+//    if (tmpScreenW < 375) {
+//        return (fontSize-2);
+//    }else if (tmpScreenW == 375){
+//        return fontSize;
+//    }else{
+//        return (fontSize+1);
+//    }
+//}
+
+
+//#define FontSize(a)                   (isPad ? a+2 : a)
+#define FontSize(a)                   (isPad ? a : a)
+#define LGFont(a)                     [UIFont systemFontOfSize:FontSize(a)]
+#define LGFontWeight(a,UIFontWeight)  [UIFont systemFontOfSize:FontSize(a) weight:UIFontWeight]
+
+
+#define global_quque    dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+#define main_queue      dispatch_get_main_queue()
+
+
+/* log输出方法 */
+#define LGLogFunction     NSLog(@"%s",__func__)
+
+//#ifdef DEBUG
+//#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n", [[[NSString alloc] initWithData:[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] dataUsingEncoding:NSUTF8StringEncoding] encoding:NSNonLossyASCIIStringEncoding] UTF8String]);
+//#else
+//#define NSLog(...)
+//#endif
+
+
+//打印调试
+#if DEBUG
+#define NSLog(fmt,...)    NSLog((@"\n%s\n\n" fmt),__PRETTY_FUNCTION__, ##__VA_ARGS__);  /**<输出语句*/
+#else
+#define NSLog(fmt, ...)
+#endif
+
+#endif /* LGPrefixHeader_pch */

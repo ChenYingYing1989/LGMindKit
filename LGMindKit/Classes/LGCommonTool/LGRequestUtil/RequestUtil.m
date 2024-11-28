@@ -7,15 +7,15 @@
 //
 
 #import "RequestUtil.h"
-#import <LGMindKit/ManagerUtil.h>
-#import <LGMindKit/SingleClass.h>
-#import <LGMindKit/ObjectTool.h>
-#import <LGMindKit/LGDeviceID.h>
-#import <LGMindKit/Reachability.h>
-#import <LGMindKit/RSATool.h>
-#import <LGMindKit/DESTool.h>
+#import "ManagerUtil.h"
+#import "SingleClass.h"
+#import "ObjectTool.h"
+#import "LGDeviceID.h"
+#import "Reachability.h"
+#import "RSATool.h"
+#import "DESTool.h"
 #import "LGNavigationController.h"
-#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD.h"
 @implementation RequestUtil
 
 +(void)withPOST:(NSString *)action parameters:(id)parameters withSign:(BOOL)sign success:(void (^)(id))success failure:(void (^)(NSError *))failure{

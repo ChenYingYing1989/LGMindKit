@@ -10,8 +10,8 @@
  */
 
 #import <UIKit/UIKit.h>
-#import <LGMindKit/LGEmptyView.h>
-#import <LGMindKit/LGNavigationView.h>
+#import "LGEmptyView.h"
+#import "LGNavigationView.h"
 @interface LGBaseViewController : UIViewController <LGEmptyViewDelegate>
 /**   */
 @property (nonatomic , strong)LGNavigationView *navigationView;
