@@ -21,9 +21,7 @@ Pod::Spec.new do |s|
   
   # 如果有依赖的第三方库
   s.dependency       'AFNetworking'
-  s.dependency       'MJExtension'
   s.dependency       'SDWebImage'
-  s.dependency       'MJRefresh'
   s.dependency       'Masonry'
   
 end
