@@ -6,7 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+
 #import "HeaderFile.h"
+
 typedef NS_ENUM(NSUInteger, LGButtonInsetsStyle) {
     LGButtonInsetsStyleTop, // image在上，label在下  需要先设置button的bounds
     LGButtonInsetsStyleLeft, // image在左，label在右

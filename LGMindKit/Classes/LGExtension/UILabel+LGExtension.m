@@ -7,7 +7,9 @@
 //
 
 #import "UILabel+LGExtension.h"
+
 #import "UIColor+LGExtension.h"
+
 @implementation UILabel (LGExtension)
 +(instancetype)lableWithText:(NSString *)text colorString:(NSString *)color  textFont:(UIFont *)textFont textAlignment:(NSTextAlignment)textAlignment  lines:(CGFloat)lines{
     UILabel *label = [[UILabel alloc]init];
