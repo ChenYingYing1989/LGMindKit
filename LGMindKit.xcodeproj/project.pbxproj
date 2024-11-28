@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4B3F227864953E65100192 /* Pods_LGMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833B84F6AEC2082B7D8D780C /* Pods_LGMindKit.framework */; };
+		7CCF7E022CF81657006AC48A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E012CF81657006AC48A /* AppDelegate.m */; };
+		7CCF7E052CF81657006AC48A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E042CF81657006AC48A /* SceneDelegate.m */; };
+		7CCF7E082CF81657006AC48A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E072CF81657006AC48A /* ViewController.m */; };
+		7CCF7E0B2CF81657006AC48A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF7E0A2CF81657006AC48A /* Base */; };
+		7CCF7E0D2CF81658006AC48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF7E0C2CF81658006AC48A /* Assets.xcassets */; };
+		7CCF7E102CF81658006AC48A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF7E0F2CF81658006AC48A /* Base */; };
+		7CCF7E132CF81658006AC48A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E122CF81658006AC48A /* main.m */; };
+		7CCF7E822CF81A8C006AC48A /* LGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E1A2CF81A8C006AC48A /* LGBaseViewController.m */; };
+		7CCF7E832CF81A8C006AC48A /* LGBottomButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E1C2CF81A8C006AC48A /* LGBottomButtonView.m */; };
+		7CCF7E842CF81A8C006AC48A /* LGBottomSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E1E2CF81A8C006AC48A /* LGBottomSheetView.m */; };
+		7CCF7E852CF81A8C006AC48A /* LGGetWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E202CF81A8C006AC48A /* LGGetWebViewController.m */; };
+		7CCF7E862CF81A8C006AC48A /* LGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E222CF81A8C006AC48A /* LGNavigationController.m */; };
+		7CCF7E872CF81A8C006AC48A /* LGPostWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E242CF81A8C006AC48A /* LGPostWebViewController.m */; };
+		7CCF7E882CF81A8C006AC48A /* LGTableViewCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E262CF81A8C006AC48A /* LGTableViewCardCell.m */; };
+		7CCF7E892CF81A8C006AC48A /* LGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E292CF81A8C006AC48A /* LGHomeViewController.m */; };
+		7CCF7E8A2CF81A8C006AC48A /* LGMindHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E2B2CF81A8C006AC48A /* LGMindHomeController.m */; };
+		7CCF7E8B2CF81A8C006AC48A /* LGAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E2E2CF81A8C006AC48A /* LGAlertTool.m */; };
+		7CCF7E8C2CF81A8C006AC48A /* LGBottomShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E302CF81A8C006AC48A /* LGBottomShadowView.m */; };
+		7CCF7E8D2CF81A8C006AC48A /* LGCalculateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E322CF81A8C006AC48A /* LGCalculateTool.m */; };
+		7CCF7E8E2CF81A8C006AC48A /* LGCheckPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E342CF81A8C006AC48A /* LGCheckPhotoTool.m */; };
+		7CCF7E8F2CF81A8C006AC48A /* LGCollectionViewCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E362CF81A8C006AC48A /* LGCollectionViewCardLayout.m */; };
+		7CCF7E902CF81A8C006AC48A /* LGCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E382CF81A8C006AC48A /* LGCollectionViewLayout.m */; };
+		7CCF7E912CF81A8C006AC48A /* LGCollectionViewLeftFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E3A2CF81A8C006AC48A /* LGCollectionViewLeftFlowLayout.m */; };
+		7CCF7E922CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E3C2CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.m */; };
+		7CCF7E932CF81A8C006AC48A /* LGCornerFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E3E2CF81A8C006AC48A /* LGCornerFooterView.m */; };
+		7CCF7E942CF81A8C006AC48A /* LGCornerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E402CF81A8C006AC48A /* LGCornerHeaderView.m */; };
+		7CCF7E952CF81A8C006AC48A /* LGCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E422CF81A8C006AC48A /* LGCustomTextView.m */; };
+		7CCF7E962CF81A8C006AC48A /* LGDottedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E442CF81A8C006AC48A /* LGDottedLineView.m */; };
+		7CCF7E972CF81A8C006AC48A /* LGEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E462CF81A8C006AC48A /* LGEmptyView.m */; };
+		7CCF7E982CF81A8C006AC48A /* LGInputAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E482CF81A8C006AC48A /* LGInputAlertView.m */; };
+		7CCF7E992CF81A8C006AC48A /* LGNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E4A2CF81A8C006AC48A /* LGNavigationView.m */; };
+		7CCF7E9A2CF81A8C006AC48A /* LGShadowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E4C2CF81A8C006AC48A /* LGShadowButton.m */; };
+		7CCF7E9B2CF81A8C006AC48A /* LGWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E4E2CF81A8C006AC48A /* LGWebProgressView.m */; };
+		7CCF7E9C2CF81A8C006AC48A /* ObjectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E502CF81A8C006AC48A /* ObjectTool.m */; };
+		7CCF7E9D2CF81A8C006AC48A /* TooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E522CF81A8C006AC48A /* TooltipView.m */; };
+		7CCF7E9E2CF81A8C006AC48A /* DatePickerTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E552CF81A8C006AC48A /* DatePickerTwoView.m */; };
+		7CCF7E9F2CF81A8C006AC48A /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E572CF81A8C006AC48A /* DatePickerView.m */; };
+		7CCF7EA02CF81A8C006AC48A /* LGAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E592CF81A8C006AC48A /* LGAreaPickerView.m */; };
+		7CCF7EA12CF81A8C006AC48A /* LGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E5B2CF81A8C006AC48A /* LGPickerView.m */; };
+		7CCF7EA22CF81A8C006AC48A /* LGPickerViewMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E5D2CF81A8C006AC48A /* LGPickerViewMax.m */; };
+		7CCF7EA32CF81A8C006AC48A /* DESTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E602CF81A8C006AC48A /* DESTool.m */; };
+		7CCF7EA42CF81A8C006AC48A /* LGDeviceID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E622CF81A8C006AC48A /* LGDeviceID.m */; };
+		7CCF7EA52CF81A8C006AC48A /* ManagerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E642CF81A8C006AC48A /* ManagerUtil.m */; };
+		7CCF7EA62CF81A8C006AC48A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E662CF81A8C006AC48A /* Reachability.m */; };
+		7CCF7EA72CF81A8C006AC48A /* RequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E682CF81A8C006AC48A /* RequestUtil.m */; };
+		7CCF7EA82CF81A8C006AC48A /* RSATool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E6A2CF81A8C006AC48A /* RSATool.m */; };
+		7CCF7EA92CF81A8C006AC48A /* SingleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E6C2CF81A8C006AC48A /* SingleClass.m */; };
+		7CCF7EAA2CF81A8C006AC48A /* NSDictionary+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E702CF81A8C006AC48A /* NSDictionary+LGExtension.m */; };
+		7CCF7EAB2CF81A8C006AC48A /* NSObject+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E722CF81A8C006AC48A /* NSObject+LGExtension.m */; };
+		7CCF7EAC2CF81A8C006AC48A /* NSString+LGExtenison.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E742CF81A8C006AC48A /* NSString+LGExtenison.m */; };
+		7CCF7EAD2CF81A8C006AC48A /* UIButton+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E762CF81A8C006AC48A /* UIButton+LGExtension.m */; };
+		7CCF7EAE2CF81A8C006AC48A /* UIColor+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E782CF81A8C006AC48A /* UIColor+LGExtension.m */; };
+		7CCF7EAF2CF81A8C006AC48A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E7A2CF81A8C006AC48A /* UIImage+Color.m */; };
+		7CCF7EB02CF81A8C006AC48A /* UILabel+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */; };
+		7CCF7EB12CF81A8C006AC48A /* UIView+LGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF7E7E2CF81A8C006AC48A /* UIView+LGExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		084F63C9A1632D9876C74F78 /* Pods-LGMindKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGMindKit.debug.xcconfig"; path = "Target Support Files/Pods-LGMindKit/Pods-LGMindKit.debug.xcconfig"; sourceTree = "<group>"; };
+		21E3EFD7C138B52F7AC34AE7 /* Pods-LGMindKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGMindKit.release.xcconfig"; path = "Target Support Files/Pods-LGMindKit/Pods-LGMindKit.release.xcconfig"; sourceTree = "<group>"; };
+		7CCF7DFD2CF81657006AC48A /* LGMindKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGMindKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCF7E002CF81657006AC48A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CCF7E012CF81657006AC48A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CCF7E032CF81657006AC48A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7CCF7E042CF81657006AC48A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7CCF7E062CF81657006AC48A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CCF7E072CF81657006AC48A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CCF7E0A2CF81657006AC48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCF7E0C2CF81658006AC48A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCF7E0F2CF81658006AC48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CCF7E112CF81658006AC48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCF7E122CF81658006AC48A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CCF7E192CF81A8C006AC48A /* LGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBaseViewController.h; sourceTree = "<group>"; };
+		7CCF7E1A2CF81A8C006AC48A /* LGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBaseViewController.m; sourceTree = "<group>"; };
+		7CCF7E1B2CF81A8C006AC48A /* LGBottomButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBottomButtonView.h; sourceTree = "<group>"; };
+		7CCF7E1C2CF81A8C006AC48A /* LGBottomButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBottomButtonView.m; sourceTree = "<group>"; };
+		7CCF7E1D2CF81A8C006AC48A /* LGBottomSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBottomSheetView.h; sourceTree = "<group>"; };
+		7CCF7E1E2CF81A8C006AC48A /* LGBottomSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBottomSheetView.m; sourceTree = "<group>"; };
+		7CCF7E1F2CF81A8C006AC48A /* LGGetWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGetWebViewController.h; sourceTree = "<group>"; };
+		7CCF7E202CF81A8C006AC48A /* LGGetWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGetWebViewController.m; sourceTree = "<group>"; };
+		7CCF7E212CF81A8C006AC48A /* LGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGNavigationController.h; sourceTree = "<group>"; };
+		7CCF7E222CF81A8C006AC48A /* LGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGNavigationController.m; sourceTree = "<group>"; };
+		7CCF7E232CF81A8C006AC48A /* LGPostWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPostWebViewController.h; sourceTree = "<group>"; };
+		7CCF7E242CF81A8C006AC48A /* LGPostWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPostWebViewController.m; sourceTree = "<group>"; };
+		7CCF7E252CF81A8C006AC48A /* LGTableViewCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTableViewCardCell.h; sourceTree = "<group>"; };
+		7CCF7E262CF81A8C006AC48A /* LGTableViewCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGTableViewCardCell.m; sourceTree = "<group>"; };
+		7CCF7E282CF81A8C006AC48A /* LGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHomeViewController.h; sourceTree = "<group>"; };
+		7CCF7E292CF81A8C006AC48A /* LGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHomeViewController.m; sourceTree = "<group>"; };
+		7CCF7E2A2CF81A8C006AC48A /* LGMindHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGMindHomeController.h; sourceTree = "<group>"; };
+		7CCF7E2B2CF81A8C006AC48A /* LGMindHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGMindHomeController.m; sourceTree = "<group>"; };
+		7CCF7E2D2CF81A8C006AC48A /* LGAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAlertTool.h; sourceTree = "<group>"; };
+		7CCF7E2E2CF81A8C006AC48A /* LGAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAlertTool.m; sourceTree = "<group>"; };
+		7CCF7E2F2CF81A8C006AC48A /* LGBottomShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBottomShadowView.h; sourceTree = "<group>"; };
+		7CCF7E302CF81A8C006AC48A /* LGBottomShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBottomShadowView.m; sourceTree = "<group>"; };
+		7CCF7E312CF81A8C006AC48A /* LGCalculateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCalculateTool.h; sourceTree = "<group>"; };
+		7CCF7E322CF81A8C006AC48A /* LGCalculateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCalculateTool.m; sourceTree = "<group>"; };
+		7CCF7E332CF81A8C006AC48A /* LGCheckPhotoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCheckPhotoTool.h; sourceTree = "<group>"; };
+		7CCF7E342CF81A8C006AC48A /* LGCheckPhotoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCheckPhotoTool.m; sourceTree = "<group>"; };
+		7CCF7E352CF81A8C006AC48A /* LGCollectionViewCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionViewCardLayout.h; sourceTree = "<group>"; };
+		7CCF7E362CF81A8C006AC48A /* LGCollectionViewCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionViewCardLayout.m; sourceTree = "<group>"; };
+		7CCF7E372CF81A8C006AC48A /* LGCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionViewLayout.h; sourceTree = "<group>"; };
+		7CCF7E382CF81A8C006AC48A /* LGCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionViewLayout.m; sourceTree = "<group>"; };
+		7CCF7E392CF81A8C006AC48A /* LGCollectionViewLeftFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionViewLeftFlowLayout.h; sourceTree = "<group>"; };
+		7CCF7E3A2CF81A8C006AC48A /* LGCollectionViewLeftFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionViewLeftFlowLayout.m; sourceTree = "<group>"; };
+		7CCF7E3B2CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionViewRightFlowLayout.h; sourceTree = "<group>"; };
+		7CCF7E3C2CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionViewRightFlowLayout.m; sourceTree = "<group>"; };
+		7CCF7E3D2CF81A8C006AC48A /* LGCornerFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCornerFooterView.h; sourceTree = "<group>"; };
+		7CCF7E3E2CF81A8C006AC48A /* LGCornerFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCornerFooterView.m; sourceTree = "<group>"; };
+		7CCF7E3F2CF81A8C006AC48A /* LGCornerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCornerHeaderView.h; sourceTree = "<group>"; };
+		7CCF7E402CF81A8C006AC48A /* LGCornerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCornerHeaderView.m; sourceTree = "<group>"; };
+		7CCF7E412CF81A8C006AC48A /* LGCustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCustomTextView.h; sourceTree = "<group>"; };
+		7CCF7E422CF81A8C006AC48A /* LGCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCustomTextView.m; sourceTree = "<group>"; };
+		7CCF7E432CF81A8C006AC48A /* LGDottedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDottedLineView.h; sourceTree = "<group>"; };
+		7CCF7E442CF81A8C006AC48A /* LGDottedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDottedLineView.m; sourceTree = "<group>"; };
+		7CCF7E452CF81A8C006AC48A /* LGEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGEmptyView.h; sourceTree = "<group>"; };
+		7CCF7E462CF81A8C006AC48A /* LGEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGEmptyView.m; sourceTree = "<group>"; };
+		7CCF7E472CF81A8C006AC48A /* LGInputAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGInputAlertView.h; sourceTree = "<group>"; };
+		7CCF7E482CF81A8C006AC48A /* LGInputAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGInputAlertView.m; sourceTree = "<group>"; };
+		7CCF7E492CF81A8C006AC48A /* LGNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGNavigationView.h; sourceTree = "<group>"; };
+		7CCF7E4A2CF81A8C006AC48A /* LGNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGNavigationView.m; sourceTree = "<group>"; };
+		7CCF7E4B2CF81A8C006AC48A /* LGShadowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGShadowButton.h; sourceTree = "<group>"; };
+		7CCF7E4C2CF81A8C006AC48A /* LGShadowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGShadowButton.m; sourceTree = "<group>"; };
+		7CCF7E4D2CF81A8C006AC48A /* LGWebProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGWebProgressView.h; sourceTree = "<group>"; };
+		7CCF7E4E2CF81A8C006AC48A /* LGWebProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGWebProgressView.m; sourceTree = "<group>"; };
+		7CCF7E4F2CF81A8C006AC48A /* ObjectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectTool.h; sourceTree = "<group>"; };
+		7CCF7E502CF81A8C006AC48A /* ObjectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectTool.m; sourceTree = "<group>"; };
+		7CCF7E512CF81A8C006AC48A /* TooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TooltipView.h; sourceTree = "<group>"; };
+		7CCF7E522CF81A8C006AC48A /* TooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TooltipView.m; sourceTree = "<group>"; };
+		7CCF7E542CF81A8C006AC48A /* DatePickerTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerTwoView.h; sourceTree = "<group>"; };
+		7CCF7E552CF81A8C006AC48A /* DatePickerTwoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerTwoView.m; sourceTree = "<group>"; };
+		7CCF7E562CF81A8C006AC48A /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		7CCF7E572CF81A8C006AC48A /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		7CCF7E582CF81A8C006AC48A /* LGAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAreaPickerView.h; sourceTree = "<group>"; };
+		7CCF7E592CF81A8C006AC48A /* LGAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAreaPickerView.m; sourceTree = "<group>"; };
+		7CCF7E5A2CF81A8C006AC48A /* LGPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPickerView.h; sourceTree = "<group>"; };
+		7CCF7E5B2CF81A8C006AC48A /* LGPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPickerView.m; sourceTree = "<group>"; };
+		7CCF7E5C2CF81A8C006AC48A /* LGPickerViewMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPickerViewMax.h; sourceTree = "<group>"; };
+		7CCF7E5D2CF81A8C006AC48A /* LGPickerViewMax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPickerViewMax.m; sourceTree = "<group>"; };
+		7CCF7E5F2CF81A8C006AC48A /* DESTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESTool.h; sourceTree = "<group>"; };
+		7CCF7E602CF81A8C006AC48A /* DESTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESTool.m; sourceTree = "<group>"; };
+		7CCF7E612CF81A8C006AC48A /* LGDeviceID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDeviceID.h; sourceTree = "<group>"; };
+		7CCF7E622CF81A8C006AC48A /* LGDeviceID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDeviceID.m; sourceTree = "<group>"; };
+		7CCF7E632CF81A8C006AC48A /* ManagerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerUtil.h; sourceTree = "<group>"; };
+		7CCF7E642CF81A8C006AC48A /* ManagerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerUtil.m; sourceTree = "<group>"; };
+		7CCF7E652CF81A8C006AC48A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7CCF7E662CF81A8C006AC48A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7CCF7E672CF81A8C006AC48A /* RequestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUtil.h; sourceTree = "<group>"; };
+		7CCF7E682CF81A8C006AC48A /* RequestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestUtil.m; sourceTree = "<group>"; };
+		7CCF7E692CF81A8C006AC48A /* RSATool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSATool.h; sourceTree = "<group>"; };
+		7CCF7E6A2CF81A8C006AC48A /* RSATool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSATool.m; sourceTree = "<group>"; };
+		7CCF7E6B2CF81A8C006AC48A /* SingleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleClass.h; sourceTree = "<group>"; };
+		7CCF7E6C2CF81A8C006AC48A /* SingleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleClass.m; sourceTree = "<group>"; };
+		7CCF7E6F2CF81A8C006AC48A /* NSDictionary+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LGExtension.h"; sourceTree = "<group>"; };
+		7CCF7E702CF81A8C006AC48A /* NSDictionary+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LGExtension.m"; sourceTree = "<group>"; };
+		7CCF7E712CF81A8C006AC48A /* NSObject+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGExtension.h"; sourceTree = "<group>"; };
+		7CCF7E722CF81A8C006AC48A /* NSObject+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGExtension.m"; sourceTree = "<group>"; };
+		7CCF7E732CF81A8C006AC48A /* NSString+LGExtenison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGExtenison.h"; sourceTree = "<group>"; };
+		7CCF7E742CF81A8C006AC48A /* NSString+LGExtenison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGExtenison.m"; sourceTree = "<group>"; };
+		7CCF7E752CF81A8C006AC48A /* UIButton+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LGExtension.h"; sourceTree = "<group>"; };
+		7CCF7E762CF81A8C006AC48A /* UIButton+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGExtension.m"; sourceTree = "<group>"; };
+		7CCF7E772CF81A8C006AC48A /* UIColor+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LGExtension.h"; sourceTree = "<group>"; };
+		7CCF7E782CF81A8C006AC48A /* UIColor+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LGExtension.m"; sourceTree = "<group>"; };
+		7CCF7E792CF81A8C006AC48A /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		7CCF7E7A2CF81A8C006AC48A /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		7CCF7E7B2CF81A8C006AC48A /* UILabel+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LGExtension.h"; sourceTree = "<group>"; };
+		7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LGExtension.m"; sourceTree = "<group>"; };
+		7CCF7E7D2CF81A8C006AC48A /* UIView+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGExtension.h"; sourceTree = "<group>"; };
+		7CCF7E7E2CF81A8C006AC48A /* UIView+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGExtension.m"; sourceTree = "<group>"; };
+		833B84F6AEC2082B7D8D780C /* Pods_LGMindKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGMindKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCF7DFA2CF81657006AC48A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4B3F227864953E65100192 /* Pods_LGMindKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E28EF540BAD943C4A85759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				833B84F6AEC2082B7D8D780C /* Pods_LGMindKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C95985C2F5F807273691AA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				084F63C9A1632D9876C74F78 /* Pods-LGMindKit.debug.xcconfig */,
+				21E3EFD7C138B52F7AC34AE7 /* Pods-LGMindKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CCF7DF42CF81657006AC48A = {
+			isa = PBXGroup;
+			children = (
+				7CCF7DFF2CF81657006AC48A /* LGMindKit */,
+				7CCF7DFE2CF81657006AC48A /* Products */,
+				1C95985C2F5F807273691AA5 /* Pods */,
+				18E28EF540BAD943C4A85759 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCF7DFE2CF81657006AC48A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7DFD2CF81657006AC48A /* LGMindKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCF7DFF2CF81657006AC48A /* LGMindKit */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E002CF81657006AC48A /* AppDelegate.h */,
+				7CCF7E012CF81657006AC48A /* AppDelegate.m */,
+				7CCF7E032CF81657006AC48A /* SceneDelegate.h */,
+				7CCF7E042CF81657006AC48A /* SceneDelegate.m */,
+				7CCF7E062CF81657006AC48A /* ViewController.h */,
+				7CCF7E072CF81657006AC48A /* ViewController.m */,
+				7CCF7E812CF81A8C006AC48A /* Classes */,
+				7CCF7E092CF81657006AC48A /* Main.storyboard */,
+				7CCF7E0C2CF81658006AC48A /* Assets.xcassets */,
+				7CCF7E0E2CF81658006AC48A /* LaunchScreen.storyboard */,
+				7CCF7E112CF81658006AC48A /* Info.plist */,
+				7CCF7E122CF81658006AC48A /* main.m */,
+			);
+			path = LGMindKit;
+			sourceTree = "<group>";
+		};
+		7CCF7E272CF81A8C006AC48A /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E192CF81A8C006AC48A /* LGBaseViewController.h */,
+				7CCF7E1A2CF81A8C006AC48A /* LGBaseViewController.m */,
+				7CCF7E1B2CF81A8C006AC48A /* LGBottomButtonView.h */,
+				7CCF7E1C2CF81A8C006AC48A /* LGBottomButtonView.m */,
+				7CCF7E1D2CF81A8C006AC48A /* LGBottomSheetView.h */,
+				7CCF7E1E2CF81A8C006AC48A /* LGBottomSheetView.m */,
+				7CCF7E1F2CF81A8C006AC48A /* LGGetWebViewController.h */,
+				7CCF7E202CF81A8C006AC48A /* LGGetWebViewController.m */,
+				7CCF7E212CF81A8C006AC48A /* LGNavigationController.h */,
+				7CCF7E222CF81A8C006AC48A /* LGNavigationController.m */,
+				7CCF7E232CF81A8C006AC48A /* LGPostWebViewController.h */,
+				7CCF7E242CF81A8C006AC48A /* LGPostWebViewController.m */,
+				7CCF7E252CF81A8C006AC48A /* LGTableViewCardCell.h */,
+				7CCF7E262CF81A8C006AC48A /* LGTableViewCardCell.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		7CCF7E2C2CF81A8C006AC48A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E282CF81A8C006AC48A /* LGHomeViewController.h */,
+				7CCF7E292CF81A8C006AC48A /* LGHomeViewController.m */,
+				7CCF7E2A2CF81A8C006AC48A /* LGMindHomeController.h */,
+				7CCF7E2B2CF81A8C006AC48A /* LGMindHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7CCF7E532CF81A8C006AC48A /* LGCustomTool */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E2D2CF81A8C006AC48A /* LGAlertTool.h */,
+				7CCF7E2E2CF81A8C006AC48A /* LGAlertTool.m */,
+				7CCF7E2F2CF81A8C006AC48A /* LGBottomShadowView.h */,
+				7CCF7E302CF81A8C006AC48A /* LGBottomShadowView.m */,
+				7CCF7E312CF81A8C006AC48A /* LGCalculateTool.h */,
+				7CCF7E322CF81A8C006AC48A /* LGCalculateTool.m */,
+				7CCF7E332CF81A8C006AC48A /* LGCheckPhotoTool.h */,
+				7CCF7E342CF81A8C006AC48A /* LGCheckPhotoTool.m */,
+				7CCF7E352CF81A8C006AC48A /* LGCollectionViewCardLayout.h */,
+				7CCF7E362CF81A8C006AC48A /* LGCollectionViewCardLayout.m */,
+				7CCF7E372CF81A8C006AC48A /* LGCollectionViewLayout.h */,
+				7CCF7E382CF81A8C006AC48A /* LGCollectionViewLayout.m */,
+				7CCF7E392CF81A8C006AC48A /* LGCollectionViewLeftFlowLayout.h */,
+				7CCF7E3A2CF81A8C006AC48A /* LGCollectionViewLeftFlowLayout.m */,
+				7CCF7E3B2CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.h */,
+				7CCF7E3C2CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.m */,
+				7CCF7E3D2CF81A8C006AC48A /* LGCornerFooterView.h */,
+				7CCF7E3E2CF81A8C006AC48A /* LGCornerFooterView.m */,
+				7CCF7E3F2CF81A8C006AC48A /* LGCornerHeaderView.h */,
+				7CCF7E402CF81A8C006AC48A /* LGCornerHeaderView.m */,
+				7CCF7E412CF81A8C006AC48A /* LGCustomTextView.h */,
+				7CCF7E422CF81A8C006AC48A /* LGCustomTextView.m */,
+				7CCF7E432CF81A8C006AC48A /* LGDottedLineView.h */,
+				7CCF7E442CF81A8C006AC48A /* LGDottedLineView.m */,
+				7CCF7E452CF81A8C006AC48A /* LGEmptyView.h */,
+				7CCF7E462CF81A8C006AC48A /* LGEmptyView.m */,
+				7CCF7E472CF81A8C006AC48A /* LGInputAlertView.h */,
+				7CCF7E482CF81A8C006AC48A /* LGInputAlertView.m */,
+				7CCF7E492CF81A8C006AC48A /* LGNavigationView.h */,
+				7CCF7E4A2CF81A8C006AC48A /* LGNavigationView.m */,
+				7CCF7E4B2CF81A8C006AC48A /* LGShadowButton.h */,
+				7CCF7E4C2CF81A8C006AC48A /* LGShadowButton.m */,
+				7CCF7E4D2CF81A8C006AC48A /* LGWebProgressView.h */,
+				7CCF7E4E2CF81A8C006AC48A /* LGWebProgressView.m */,
+				7CCF7E4F2CF81A8C006AC48A /* ObjectTool.h */,
+				7CCF7E502CF81A8C006AC48A /* ObjectTool.m */,
+				7CCF7E512CF81A8C006AC48A /* TooltipView.h */,
+				7CCF7E522CF81A8C006AC48A /* TooltipView.m */,
+			);
+			path = LGCustomTool;
+			sourceTree = "<group>";
+		};
+		7CCF7E5E2CF81A8C006AC48A /* LGPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E542CF81A8C006AC48A /* DatePickerTwoView.h */,
+				7CCF7E552CF81A8C006AC48A /* DatePickerTwoView.m */,
+				7CCF7E562CF81A8C006AC48A /* DatePickerView.h */,
+				7CCF7E572CF81A8C006AC48A /* DatePickerView.m */,
+				7CCF7E582CF81A8C006AC48A /* LGAreaPickerView.h */,
+				7CCF7E592CF81A8C006AC48A /* LGAreaPickerView.m */,
+				7CCF7E5A2CF81A8C006AC48A /* LGPickerView.h */,
+				7CCF7E5B2CF81A8C006AC48A /* LGPickerView.m */,
+				7CCF7E5C2CF81A8C006AC48A /* LGPickerViewMax.h */,
+				7CCF7E5D2CF81A8C006AC48A /* LGPickerViewMax.m */,
+			);
+			path = LGPickerView;
+			sourceTree = "<group>";
+		};
+		7CCF7E6D2CF81A8C006AC48A /* LGRequestUtil */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E5F2CF81A8C006AC48A /* DESTool.h */,
+				7CCF7E602CF81A8C006AC48A /* DESTool.m */,
+				7CCF7E612CF81A8C006AC48A /* LGDeviceID.h */,
+				7CCF7E622CF81A8C006AC48A /* LGDeviceID.m */,
+				7CCF7E632CF81A8C006AC48A /* ManagerUtil.h */,
+				7CCF7E642CF81A8C006AC48A /* ManagerUtil.m */,
+				7CCF7E652CF81A8C006AC48A /* Reachability.h */,
+				7CCF7E662CF81A8C006AC48A /* Reachability.m */,
+				7CCF7E672CF81A8C006AC48A /* RequestUtil.h */,
+				7CCF7E682CF81A8C006AC48A /* RequestUtil.m */,
+				7CCF7E692CF81A8C006AC48A /* RSATool.h */,
+				7CCF7E6A2CF81A8C006AC48A /* RSATool.m */,
+				7CCF7E6B2CF81A8C006AC48A /* SingleClass.h */,
+				7CCF7E6C2CF81A8C006AC48A /* SingleClass.m */,
+			);
+			path = LGRequestUtil;
+			sourceTree = "<group>";
+		};
+		7CCF7E6E2CF81A8C006AC48A /* LGCommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E532CF81A8C006AC48A /* LGCustomTool */,
+				7CCF7E5E2CF81A8C006AC48A /* LGPickerView */,
+				7CCF7E6D2CF81A8C006AC48A /* LGRequestUtil */,
+			);
+			path = LGCommonTool;
+			sourceTree = "<group>";
+		};
+		7CCF7E7F2CF81A8C006AC48A /* LGExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E6F2CF81A8C006AC48A /* NSDictionary+LGExtension.h */,
+				7CCF7E702CF81A8C006AC48A /* NSDictionary+LGExtension.m */,
+				7CCF7E712CF81A8C006AC48A /* NSObject+LGExtension.h */,
+				7CCF7E722CF81A8C006AC48A /* NSObject+LGExtension.m */,
+				7CCF7E732CF81A8C006AC48A /* NSString+LGExtenison.h */,
+				7CCF7E742CF81A8C006AC48A /* NSString+LGExtenison.m */,
+				7CCF7E752CF81A8C006AC48A /* UIButton+LGExtension.h */,
+				7CCF7E762CF81A8C006AC48A /* UIButton+LGExtension.m */,
+				7CCF7E772CF81A8C006AC48A /* UIColor+LGExtension.h */,
+				7CCF7E782CF81A8C006AC48A /* UIColor+LGExtension.m */,
+				7CCF7E792CF81A8C006AC48A /* UIImage+Color.h */,
+				7CCF7E7A2CF81A8C006AC48A /* UIImage+Color.m */,
+				7CCF7E7B2CF81A8C006AC48A /* UILabel+LGExtension.h */,
+				7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */,
+				7CCF7E7D2CF81A8C006AC48A /* UIView+LGExtension.h */,
+				7CCF7E7E2CF81A8C006AC48A /* UIView+LGExtension.m */,
+			);
+			path = LGExtension;
+			sourceTree = "<group>";
+		};
+		7CCF7E802CF81A8C006AC48A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7CCF7E812CF81A8C006AC48A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CCF7E272CF81A8C006AC48A /* BaseClass */,
+				7CCF7E2C2CF81A8C006AC48A /* Controller */,
+				7CCF7E6E2CF81A8C006AC48A /* LGCommonTool */,
+				7CCF7E7F2CF81A8C006AC48A /* LGExtension */,
+				7CCF7E802CF81A8C006AC48A /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCF7DFC2CF81657006AC48A /* LGMindKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCF7E162CF81658006AC48A /* Build configuration list for PBXNativeTarget "LGMindKit" */;
+			buildPhases = (
+				5F6A2AB3C2A7141511E32857 /* [CP] Check Pods Manifest.lock */,
+				7CCF7DF92CF81657006AC48A /* Sources */,
+				7CCF7DFA2CF81657006AC48A /* Frameworks */,
+				7CCF7DFB2CF81657006AC48A /* Resources */,
+				01B8651CF2EDB76F39E3D3B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGMindKit;
+			productName = LGMindKit;
+			productReference = 7CCF7DFD2CF81657006AC48A /* LGMindKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCF7DF52CF81657006AC48A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7CCF7DFC2CF81657006AC48A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7CCF7DF82CF81657006AC48A /* Build configuration list for PBXProject "LGMindKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCF7DF42CF81657006AC48A;
+			productRefGroup = 7CCF7DFE2CF81657006AC48A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCF7DFC2CF81657006AC48A /* LGMindKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCF7DFB2CF81657006AC48A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF7E0D2CF81658006AC48A /* Assets.xcassets in Resources */,
+				7CCF7E102CF81658006AC48A /* Base in Resources */,
+				7CCF7E0B2CF81657006AC48A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B8651CF2EDB76F39E3D3B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGMindKit/Pods-LGMindKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGMindKit/Pods-LGMindKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LGMindKit/Pods-LGMindKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6A2AB3C2A7141511E32857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGMindKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCF7DF92CF81657006AC48A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF7E872CF81A8C006AC48A /* LGPostWebViewController.m in Sources */,
+				7CCF7E982CF81A8C006AC48A /* LGInputAlertView.m in Sources */,
+				7CCF7EAE2CF81A8C006AC48A /* UIColor+LGExtension.m in Sources */,
+				7CCF7E942CF81A8C006AC48A /* LGCornerHeaderView.m in Sources */,
+				7CCF7E9C2CF81A8C006AC48A /* ObjectTool.m in Sources */,
+				7CCF7E9F2CF81A8C006AC48A /* DatePickerView.m in Sources */,
+				7CCF7E992CF81A8C006AC48A /* LGNavigationView.m in Sources */,
+				7CCF7E8A2CF81A8C006AC48A /* LGMindHomeController.m in Sources */,
+				7CCF7E082CF81657006AC48A /* ViewController.m in Sources */,
+				7CCF7E842CF81A8C006AC48A /* LGBottomSheetView.m in Sources */,
+				7CCF7E022CF81657006AC48A /* AppDelegate.m in Sources */,
+				7CCF7E932CF81A8C006AC48A /* LGCornerFooterView.m in Sources */,
+				7CCF7E892CF81A8C006AC48A /* LGHomeViewController.m in Sources */,
+				7CCF7E8E2CF81A8C006AC48A /* LGCheckPhotoTool.m in Sources */,
+				7CCF7E852CF81A8C006AC48A /* LGGetWebViewController.m in Sources */,
+				7CCF7E912CF81A8C006AC48A /* LGCollectionViewLeftFlowLayout.m in Sources */,
+				7CCF7E9D2CF81A8C006AC48A /* TooltipView.m in Sources */,
+				7CCF7E952CF81A8C006AC48A /* LGCustomTextView.m in Sources */,
+				7CCF7EA82CF81A8C006AC48A /* RSATool.m in Sources */,
+				7CCF7E132CF81658006AC48A /* main.m in Sources */,
+				7CCF7EA42CF81A8C006AC48A /* LGDeviceID.m in Sources */,
+				7CCF7EA02CF81A8C006AC48A /* LGAreaPickerView.m in Sources */,
+				7CCF7EA22CF81A8C006AC48A /* LGPickerViewMax.m in Sources */,
+				7CCF7EAB2CF81A8C006AC48A /* NSObject+LGExtension.m in Sources */,
+				7CCF7E972CF81A8C006AC48A /* LGEmptyView.m in Sources */,
+				7CCF7E822CF81A8C006AC48A /* LGBaseViewController.m in Sources */,
+				7CCF7EA92CF81A8C006AC48A /* SingleClass.m in Sources */,
+				7CCF7E9B2CF81A8C006AC48A /* LGWebProgressView.m in Sources */,
+				7CCF7E8B2CF81A8C006AC48A /* LGAlertTool.m in Sources */,
+				7CCF7EA52CF81A8C006AC48A /* ManagerUtil.m in Sources */,
+				7CCF7EB02CF81A8C006AC48A /* UILabel+LGExtension.m in Sources */,
+				7CCF7E962CF81A8C006AC48A /* LGDottedLineView.m in Sources */,
+				7CCF7E832CF81A8C006AC48A /* LGBottomButtonView.m in Sources */,
+				7CCF7EAC2CF81A8C006AC48A /* NSString+LGExtenison.m in Sources */,
+				7CCF7EA12CF81A8C006AC48A /* LGPickerView.m in Sources */,
+				7CCF7E8D2CF81A8C006AC48A /* LGCalculateTool.m in Sources */,
+				7CCF7E902CF81A8C006AC48A /* LGCollectionViewLayout.m in Sources */,
+				7CCF7EA72CF81A8C006AC48A /* RequestUtil.m in Sources */,
+				7CCF7EAF2CF81A8C006AC48A /* UIImage+Color.m in Sources */,
+				7CCF7EB12CF81A8C006AC48A /* UIView+LGExtension.m in Sources */,
+				7CCF7E922CF81A8C006AC48A /* LGCollectionViewRightFlowLayout.m in Sources */,
+				7CCF7E9E2CF81A8C006AC48A /* DatePickerTwoView.m in Sources */,
+				7CCF7EAD2CF81A8C006AC48A /* UIButton+LGExtension.m in Sources */,
+				7CCF7E052CF81657006AC48A /* SceneDelegate.m in Sources */,
+				7CCF7EAA2CF81A8C006AC48A /* NSDictionary+LGExtension.m in Sources */,
+				7CCF7EA32CF81A8C006AC48A /* DESTool.m in Sources */,
+				7CCF7E882CF81A8C006AC48A /* LGTableViewCardCell.m in Sources */,
+				7CCF7E862CF81A8C006AC48A /* LGNavigationController.m in Sources */,
+				7CCF7E9A2CF81A8C006AC48A /* LGShadowButton.m in Sources */,
+				7CCF7E8C2CF81A8C006AC48A /* LGBottomShadowView.m in Sources */,
+				7CCF7EA62CF81A8C006AC48A /* Reachability.m in Sources */,
+				7CCF7E8F2CF81A8C006AC48A /* LGCollectionViewCardLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CCF7E092CF81657006AC48A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCF7E0A2CF81657006AC48A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CCF7E0E2CF81658006AC48A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCF7E0F2CF81658006AC48A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCF7E142CF81658006AC48A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CCF7E152CF81658006AC48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCF7E172CF81658006AC48A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084F63C9A1632D9876C74F78 /* Pods-LGMindKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DKB6WAGD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LGMindKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhuhealth.breathtraining.LGMindKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CCF7E182CF81658006AC48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E3EFD7C138B52F7AC34AE7 /* Pods-LGMindKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DKB6WAGD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LGMindKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhuhealth.breathtraining.LGMindKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCF7DF82CF81657006AC48A /* Build configuration list for PBXProject "LGMindKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF7E142CF81658006AC48A /* Debug */,
+				7CCF7E152CF81658006AC48A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCF7E162CF81658006AC48A /* Build configuration list for PBXNativeTarget "LGMindKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCF7E172CF81658006AC48A /* Debug */,
+				7CCF7E182CF81658006AC48A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCF7DF52CF81657006AC48A /* Project object */;
+}
