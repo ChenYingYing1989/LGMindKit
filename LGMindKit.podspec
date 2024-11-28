@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   # 确保资源文件路径正确
   s.resources = 'Assets.xcassets/**/*'
   
-  #s.platform         = :ios, '12.0'
-  s.ios.deployment_target = '12.0'
-  s.build_settings = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
+  s.platform         = :ios, '12.0'
+  #s.ios.deployment_target = '12.0'
+  #s.build_settings = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
   #s.requires_arc     = true
   
   
