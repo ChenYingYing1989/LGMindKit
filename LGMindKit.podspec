@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.resources = 'Assets.xcassets/**/*'
   
   s.platform         = :ios, '12.0'
-  s.requires_arc     = true
+  #s.requires_arc     = true
   
   # 如果有依赖的第三方库
   s.dependency       'FDFullscreenPopGesture','~>1.1'
