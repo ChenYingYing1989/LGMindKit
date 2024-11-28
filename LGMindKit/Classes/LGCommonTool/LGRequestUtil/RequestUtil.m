@@ -7,7 +7,6 @@
 //
 
 #import "RequestUtil.h"
-#import "ManagerUtil.h"
 #import "SingleClass.h"
 #import "ObjectTool.h"
 #import "LGDeviceID.h"
@@ -276,7 +275,10 @@
     BOOL isExist = [single searchObjectWithDic:singleDic];
     if (isExist == NO){
         [single insertObjectWithDic:singleDic];
-        AFHTTPSessionManager *manager = [ManagerUtil buildManager];
+        AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:BaseUrl]];
+        manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+        [manager.requestSerializer setTimeoutInterval:20];//超时时间为20s
+        manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"application/json",@"text/javascript",@"application/octet-stream",@"application/x-www-form-urlencoded",@"",@"text/plain",nil];
         NSDictionary *headerDic = nil;
         if(sign == YES){
             headerDic = [RequestUtil singWithParams:parameters];
@@ -334,7 +336,10 @@
     BOOL isExist = [single searchObjectWithDic:singleDic];
     if (isExist == NO){
         [single insertObjectWithDic:singleDic];
-        AFHTTPSessionManager *manager = [ManagerUtil buildManager];
+        AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:BaseUrl]];
+        manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+        [manager.requestSerializer setTimeoutInterval:20];//超时时间为20s
+        manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"application/json",@"text/javascript",@"application/octet-stream",@"application/x-www-form-urlencoded",@"",@"text/plain",nil];
         NSDictionary *headerDic = nil;
         if(sign == YES){
             headerDic = [RequestUtil singWithParams:parameters];
