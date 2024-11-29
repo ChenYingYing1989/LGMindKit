@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
   # 确保资源文件路径正确
   s.resources = 'LGMindKit/Assets.xcassets/**/*'
   
-  #s.platform         = :ios, '12.0'
+  s.platform         = :ios, '12.0'
   
-  s.ios.deployment_target = '12.0'
+  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
   
   
-  #s.requires_arc     = true
+  s.requires_arc     = true
   
   
   
