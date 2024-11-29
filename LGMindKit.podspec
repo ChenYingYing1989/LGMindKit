@@ -7,28 +7,28 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :text => 'LICENSE' }
   s.authors          = { 'BonnieChen' => '861488970@qq.com' }
   s.source           = { :git => 'https://github.com/ChenYingYing1989/LGMindKit.git', :tag => s.version }
-  s.source_files     = 'LGMindKit/Classes/**/*.{h,m}'
+  s.source_files     = 'Classes/**/*.{h,m}'
   # 确保资源文件路径正确
-  s.resources = 'LGMindKit/Assets.xcassets/**/*'
+  s.resources = 'Classes/Assets.xcassets/**/*'
   
   s.platform         = :ios, '12.0'
   
-  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64'}
+  #s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64'}
   
   
-  s.requires_arc     = true
+  #s.requires_arc     = true
   
   
   
   # 如果有依赖的第三方库
-  s.dependency       'FDFullscreenPopGesture'
-  s.dependency       'SDCycleScrollView'
-  s.dependency       'IQKeyboardManager'
-  s.dependency       'WMPageController'
-  s.dependency       'MBProgressHUD'
-  s.dependency       'AFNetworking'
-  s.dependency       'SDWebImage'
-  s.dependency       'Masonry'
+    #s.dependency       'FDFullscreenPopGesture'
+    #s.dependency       'SDCycleScrollView'
+    #s.dependency       'IQKeyboardManager'
+    #s.dependency       'WMPageController'
+    #s.dependency       'MBProgressHUD'
+    #s.dependency       'AFNetworking'
+    #s.dependency       'SDWebImage'
+    #s.dependency       'Masonry'
   
 end
 
