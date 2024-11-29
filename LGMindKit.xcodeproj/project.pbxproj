@@ -70,6 +70,7 @@
 		21E3EFD7C138B52F7AC34AE7 /* Pods-LGMindKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGMindKit.release.xcconfig"; path = "Target Support Files/Pods-LGMindKit/Pods-LGMindKit.release.xcconfig"; sourceTree = "<group>"; };
 		7C83D2AD2CF854E400C0E546 /* LGBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBaseView.h; sourceTree = "<group>"; };
 		7C83D2AE2CF854E400C0E546 /* LGBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBaseView.m; sourceTree = "<group>"; };
+		7CC7E1472CF965480054C14C /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
 		7CCF7DFD2CF81657006AC48A /* LGMindKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGMindKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCF7E002CF81657006AC48A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CCF7E012CF81657006AC48A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,7 +177,6 @@
 		7CCF7E7C2CF81A8C006AC48A /* UILabel+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LGExtension.m"; sourceTree = "<group>"; };
 		7CCF7E7D2CF81A8C006AC48A /* UIView+LGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGExtension.h"; sourceTree = "<group>"; };
 		7CCF7E7E2CF81A8C006AC48A /* UIView+LGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGExtension.m"; sourceTree = "<group>"; };
-		7CCF7EB22CF83D3B006AC48A /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
 		833B84F6AEC2082B7D8D780C /* Pods_LGMindKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGMindKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -230,19 +230,11 @@
 		7CCF7DFF2CF81657006AC48A /* LGMindKit */ = {
 			isa = PBXGroup;
 			children = (
-				7CCF7E002CF81657006AC48A /* AppDelegate.h */,
-				7CCF7E012CF81657006AC48A /* AppDelegate.m */,
-				7CCF7E032CF81657006AC48A /* SceneDelegate.h */,
-				7CCF7E042CF81657006AC48A /* SceneDelegate.m */,
-				7CCF7E062CF81657006AC48A /* ViewController.h */,
-				7CCF7E072CF81657006AC48A /* ViewController.m */,
 				7CCF7E812CF81A8C006AC48A /* Classes */,
 				7CCF7E092CF81657006AC48A /* Main.storyboard */,
 				7CCF7E0C2CF81658006AC48A /* Assets.xcassets */,
-				7CCF7EB22CF83D3B006AC48A /* HeaderFile.h */,
 				7CCF7E0E2CF81658006AC48A /* LaunchScreen.storyboard */,
 				7CCF7E112CF81658006AC48A /* Info.plist */,
-				7CCF7E122CF81658006AC48A /* main.m */,
 			);
 			path = LGMindKit;
 			sourceTree = "<group>";
@@ -405,6 +397,14 @@
 		7CCF7E812CF81A8C006AC48A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7CCF7E122CF81658006AC48A /* main.m */,
+				7CC7E1472CF965480054C14C /* HeaderFile.h */,
+				7CCF7E002CF81657006AC48A /* AppDelegate.h */,
+				7CCF7E012CF81657006AC48A /* AppDelegate.m */,
+				7CCF7E032CF81657006AC48A /* SceneDelegate.h */,
+				7CCF7E042CF81657006AC48A /* SceneDelegate.m */,
+				7CCF7E062CF81657006AC48A /* ViewController.h */,
+				7CCF7E072CF81657006AC48A /* ViewController.m */,
 				7CCF7E272CF81A8C006AC48A /* BaseClass */,
 				7CCF7E2C2CF81A8C006AC48A /* Controller */,
 				7CCF7E6E2CF81A8C006AC48A /* LGCommonTool */,

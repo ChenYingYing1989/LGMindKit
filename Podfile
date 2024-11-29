@@ -16,6 +16,7 @@ target 'LGMindKit' do
     pod 'SDWebImage'
     pod 'MJRefresh'
     pod 'Masonry'
+    
  end
 
 #Pods config
