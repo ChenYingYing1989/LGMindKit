@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
   s.platform         = :ios, '12.0'
   
-  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
+  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64'}
   
   
   s.requires_arc     = true
@@ -32,3 +32,5 @@ Pod::Spec.new do |s|
   
 end
 
+#验证
+# pod lib lint --verbose --no-clean
