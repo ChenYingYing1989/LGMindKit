@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.dependency       'FDFullscreenPopGesture'
   s.dependency       'SDCycleScrollView'
   s.dependency       'IQKeyboardManager'
-  #s.dependency       'WMPageController'
+  s.dependency       'WMPageController'
   s.dependency       'MBProgressHUD'
   s.dependency       'AFNetworking'
   s.dependency       'SDWebImage'
