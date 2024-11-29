@@ -1,6 +1,0 @@
-framework module Pods_LGMindKit {
-  umbrella header "Pods-LGMindKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
