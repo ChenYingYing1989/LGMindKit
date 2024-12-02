@@ -7,7 +7,7 @@
 //
 
 #import "LGNavigationController.h"
-#import "UINavigationController+FDFullscreenPopGesture.h"
+//#import "UINavigationController+FDFullscreenPopGesture.h"
 #import "HeaderFile.h"
 #import "LGMindHomeController.h"
 
@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.fd_fullscreenPopGestureRecognizer.enabled = NO;
+//    self.fd_fullscreenPopGestureRecognizer.enabled = NO;
 }
 
 -(instancetype)init{

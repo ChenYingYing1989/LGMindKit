@@ -10,7 +10,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "UINavigationController+FDFullscreenPopGesture.h"
+//#import "UINavigationController+FDFullscreenPopGesture.h"
 //#import "LGNavigationView.h"
 #import "HeaderFile.h"
 #import "UIImage+LGExtension.h"
