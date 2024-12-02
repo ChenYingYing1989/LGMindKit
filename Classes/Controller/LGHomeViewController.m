@@ -7,8 +7,7 @@
 
 #import "LGHomeViewController.h"
 #import "LGMindHomeController.h"
-#import "LGBottomButtonView.h"
-@interface LGBaseViewController ()<LGBottomButtonDelegate>
+@interface LGBaseViewController ()
 
 
 @end
@@ -24,9 +23,9 @@
     self.title = @"下一页";
     self.view.backgroundColor = [UIColor colorWithHexString:@"#F3F7F8"];
     
-    LGBottomButtonView *bottomView = [[LGBottomButtonView alloc]initWithTitle:@"上一页" color:@"#4C87FD" type:LGBottomButtonTypeBack frame:CGRectMake(0, Screen_H-topBarHeight-viewPix(76), Screen_W, viewPix(76))];
-    bottomView.delegate = self;
-    [self.view addSubview:bottomView];
+//    LGBottomButtonView *bottomView = [[LGBottomButtonView alloc]initWithTitle:@"上一页" color:@"#4C87FD" type:LGBottomButtonTypeBack frame:CGRectMake(0, Screen_H-topBarHeight-viewPix(76), Screen_W, viewPix(76))];
+//    bottomView.delegate = self;
+//    [self.view addSubview:bottomView];
    
 //    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage bundleImage:@"navBack"]];
 //    imageView.backgroundColor = [UIColor redColor];
