@@ -53,7 +53,7 @@
 
 //默认alpha值为1
 + (UIColor *)colorWithHexString:(NSString *)color{
-    return [self colorWithHexString:color alpha:1.0f];
+    return [UIColor colorWithHexString:color alpha:1.0f];
 }
 
 @end
