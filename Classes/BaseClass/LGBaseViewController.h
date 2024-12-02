@@ -21,7 +21,7 @@
 #import "UILabel+LGExtension.h"
 #import "UIButton+LGExtension.h"
 #import "NSDictionary+LGExtension.h"
-@interface LGBaseViewController : UIViewController <LGEmptyViewDelegate>
+@interface LGBaseViewController : UIViewController
 /**   */
 //@property (nonatomic , strong)LGNavigationView *navigationView;
 /**   */
@@ -29,7 +29,7 @@
 /**   */
 @property (nonatomic , strong)UIButton *backBtn;
 
-@property (nonatomic , strong)LGEmptyView *emptyView;
+//@property (nonatomic , strong)LGEmptyView *emptyView;
 /**  用户角色：10-医生  、20-医助  、 100-其他 */
 @property (nonatomic , copy)NSString *roleType;
 /** 是否首次加载*/

@@ -114,21 +114,21 @@
 
 //创建EmptyView
 -(void)emptyViewWithSuperView:(UIView *)superView frame:(CGRect)frame{
-    LGEmptyView *emptyView = [[LGEmptyView alloc]initWithFrame:frame];
-    emptyView.backgroundColor = [UIColor clearColor];
-    emptyView.margin = viewPix(15);
-    emptyView.delegate = self;
-    emptyView.needBuffer = YES;
-    [superView addSubview:emptyView];
-    self.emptyView = emptyView;
-    [self performSelector:@selector(startBufferAction) withObject:nil afterDelay:0.5];
+//    LGEmptyView *emptyView = [[LGEmptyView alloc]initWithFrame:frame];
+//    emptyView.backgroundColor = [UIColor clearColor];
+//    emptyView.margin = viewPix(15);
+//    emptyView.delegate = self;
+//    emptyView.needBuffer = YES;
+//    [superView addSubview:emptyView];
+//    self.emptyView = emptyView;
+//    [self performSelector:@selector(startBufferAction) withObject:nil afterDelay:0.5];
 }
 
 -(void)startBufferAction{
-    if (self.isfirst == YES) {
-        [self.emptyView startBufferAction];
-        self.isfirst = NO;
-    }
+//    if (self.isfirst == YES) {
+//        [self.emptyView startBufferAction];
+//        self.isfirst = NO;
+//    }
 }
 
 - (BOOL)shouldAutorotate {
