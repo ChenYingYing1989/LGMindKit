@@ -93,11 +93,12 @@
 
 -(void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
-    if (self.fd_prefersNavigationBarHidden == YES) {
-        self.gradientLayer.frame = CGRectMake(0, topBarHeight, Screen_W, viewPix(167));
-    }else{
-        self.gradientLayer.frame = CGRectMake(0, 0, Screen_W, viewPix(167));
-    }
+//    if (self.fd_prefersNavigationBarHidden == YES) {
+//        self.gradientLayer.frame = CGRectMake(0, topBarHeight, Screen_W, viewPix(167));
+//    }else{
+//        self.gradientLayer.frame = CGRectMake(0, 0, Screen_W, viewPix(167));
+//    }
+    self.gradientLayer.frame = CGRectMake(0, 0, Screen_W, viewPix(167));
 }
 
 -(CAGradientLayer *)gradientLayer{

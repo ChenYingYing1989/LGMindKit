@@ -9,11 +9,10 @@
 
 #import "UIColor+LGExtension.h"
 #import "LGHomeViewController.h"
-#import "LGBottomButtonView.h"
 
 #import <CoreBluetooth/CoreBluetooth.h>
 
-@interface LGMindHomeController()<LGBottomButtonDelegate,CBCentralManagerDelegate,CBPeripheralManagerDelegate,CBPeripheralDelegate>
+@interface LGMindHomeController()<CBCentralManagerDelegate,CBPeripheralManagerDelegate,CBPeripheralDelegate>
 
 /**  中央管理器 */
 @property (nonatomic , strong)CBCentralManager *centralManager;
@@ -81,13 +80,13 @@
     [self.view addSubview:self.batteryLabel];
     [self.view addSubview:self.openBtn];
     
-    LGBottomButtonView *actionView = [[LGBottomButtonView alloc] initWithItemArray:@[@{@"title":@"上调",@"color":@"#7562FF",@"type":@"back"},@{@"title":@"下调",@"color":@"#7562FF",@"type":@"back"}] frame:CGRectMake(0, kMaxY(self.batteryTitle.frame)+viewPix(80), Screen_W, viewPix(76))];
-    actionView.delegate = self;
-    [self.view addSubview:actionView];
-    
-    LGBottomButtonView *bottomView = [[LGBottomButtonView alloc]initWithTitle:@"下一页" color:@"#4C87FD" type:LGBottomButtonTypeBack frame:CGRectMake(0, Screen_H-topBarHeight-viewPix(76), Screen_W, viewPix(76))];
-    bottomView.delegate = self;
-    [self.view addSubview:bottomView];
+//    LGBottomButtonView *actionView = [[LGBottomButtonView alloc] initWithItemArray:@[@{@"title":@"上调",@"color":@"#7562FF",@"type":@"back"},@{@"title":@"下调",@"color":@"#7562FF",@"type":@"back"}] frame:CGRectMake(0, kMaxY(self.batteryTitle.frame)+viewPix(80), Screen_W, viewPix(76))];
+//    actionView.delegate = self;
+//    [self.view addSubview:actionView];
+//    
+//    LGBottomButtonView *bottomView = [[LGBottomButtonView alloc]initWithTitle:@"下一页" color:@"#4C87FD" type:LGBottomButtonTypeBack frame:CGRectMake(0, Screen_H-topBarHeight-viewPix(76), Screen_W, viewPix(76))];
+//    bottomView.delegate = self;
+//    [self.view addSubview:bottomView];
 }
 
 -(void)backButtonAction{
