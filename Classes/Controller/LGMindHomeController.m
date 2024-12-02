@@ -258,7 +258,7 @@
 
 -(void)handleResult:(NSData *)data{
     NSArray *stringArray = [self hexStringArray:data];
-    NSArray *valueArray = [self hexValueArray:data];
+//    NSArray *valueArray = [self hexValueArray:data];
     if (stringArray.count>17) {
         self.inoutStr = stringArray[14];
         self.statusStr = stringArray[15];
@@ -306,7 +306,7 @@
     CBUUID *serviceUUID = [CBUUID UUIDWithString:@"6e40fff3-b5a3-f393-e0a9-e50e24dcca9e"];
     CBUUID *characteristicUUID = [CBUUID UUIDWithString:@"5678"];
 
-    CBMutableCharacteristic *characteristic = [[CBMutableCharacteristic alloc] initWithType:characteristicUUID properties:CBCharacteristicPropertyRead value:nil permissions:CBAttributePermissionsReadable];
+//    CBMutableCharacteristic *characteristic = [[CBMutableCharacteristic alloc] initWithType:characteristicUUID properties:CBCharacteristicPropertyRead value:nil permissions:CBAttributePermissionsReadable];
 
     CBMutableService *service = [[CBMutableService alloc] initWithType:serviceUUID primary:YES];
 //    service.characteristics = @[characteristic];

@@ -23,18 +23,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.isfirst = YES;
+    self.isPortrait = YES;
 //    [UINavigationBar appearance].shadowImage = [UIImage new];
 //    [self.view.layer addSublayer:self.gradientLayer];
     self.view.backgroundColor = [UIColor colorWithHexString:@"#F3F7F8"];
 }
 
--(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator{
-    if (size.width>size.height) {
-        self.isPortrait = NO;
-    }else{
-        self.isPortrait = YES;
-    }
-}
+//-(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator{
+//    if (size.width>size.height) {
+//        self.isPortrait = NO;
+//    }else{
+//        self.isPortrait = YES;
+//    }
+//}
 
 -(void)backButtonAction{
     [self.navigationController popViewControllerAnimated:YES];
