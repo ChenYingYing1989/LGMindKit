@@ -8,7 +8,6 @@
 #import <UIKit/UIKit.h>
 
 #import "HeaderFile.h"
-#import "TooltipView.h"
 #import "UIImage+LGExtension.h"
 #import "UIColor+LGExtension.h"
 #import "NSString+LGExtenison.h"

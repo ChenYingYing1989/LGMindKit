@@ -76,20 +76,20 @@
     return _backBtn;
 }
 
--(LGNavigationView *)navigationView{
-    if(!_navigationView){
-        _navigationView = [[LGNavigationView alloc]initWithFrame:CGRectMake(0, 0, Screen_W, topBarHeight)];
-        _navigationView.backgroundColor = [UIColor clearColor];
-        [_navigationView.backBtn addTarget:self action:@selector(backButtonAction) forControlEvents:UIControlEventTouchUpInside];
-    }
-    return _navigationView;
-}
+//-(LGNavigationView *)navigationView{
+//    if(!_navigationView){
+//        _navigationView = [[LGNavigationView alloc]initWithFrame:CGRectMake(0, 0, Screen_W, topBarHeight)];
+//        _navigationView.backgroundColor = [UIColor clearColor];
+//        [_navigationView.backBtn addTarget:self action:@selector(backButtonAction) forControlEvents:UIControlEventTouchUpInside];
+//    }
+//    return _navigationView;
+//}
 
--(void)navigationViewWithType:(LGNavigationType)type title:(NSString *)title{
-    self.navigationView.type = type;
-    self.navigationView.title = title;
-    [self.view addSubview:self.navigationView];
-}
+//-(void)navigationViewWithType:(LGNavigationType)type title:(NSString *)title{
+//    self.navigationView.type = type;
+//    self.navigationView.title = title;
+//    [self.view addSubview:self.navigationView];
+//}
 
 -(void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];

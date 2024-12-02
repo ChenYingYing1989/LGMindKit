@@ -11,11 +11,8 @@
 
 #import <UIKit/UIKit.h>
 #import "UINavigationController+FDFullscreenPopGesture.h"
-#import "LGNavigationView.h"
-#import "LGEmptyView.h"
-#import "RequestUtil.h"
+//#import "LGNavigationView.h"
 #import "HeaderFile.h"
-#import "TooltipView.h"
 #import "UIImage+LGExtension.h"
 #import "UIColor+LGExtension.h"
 #import "NSString+LGExtenison.h"
@@ -26,7 +23,7 @@
 #import "NSDictionary+LGExtension.h"
 @interface LGBaseViewController : UIViewController <LGEmptyViewDelegate>
 /**   */
-@property (nonatomic , strong)LGNavigationView *navigationView;
+//@property (nonatomic , strong)LGNavigationView *navigationView;
 /**   */
 @property (nonatomic , strong)CAGradientLayer *gradientLayer;
 /**   */
@@ -49,7 +46,7 @@
 //重置导航栏
 -(void)resetNavigationTheme;
 //创建导航栏
--(void)navigationViewWithType:(LGNavigationType)type title:(NSString *)title;
+//-(void)navigationViewWithType:(LGNavigationType)type title:(NSString *)title;
 
 /**  创建空白页 */
 -(void)emptyViewWithSuperView:(UIView *)superView frame:(CGRect)frame;
