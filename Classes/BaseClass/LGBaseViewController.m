@@ -41,6 +41,9 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+-(void)viewWillAppearAction{
+    
+}
 
 -(void)resetNavigationTheme{
     [UIBarButtonItem appearance].tintColor = kNavTitleColor;
