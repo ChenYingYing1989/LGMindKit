@@ -304,7 +304,7 @@
 //定义服务和特征值
 - (void)setupServiceAndCharacteristics {
     CBUUID *serviceUUID = [CBUUID UUIDWithString:@"6e40fff3-b5a3-f393-e0a9-e50e24dcca9e"];
-    CBUUID *characteristicUUID = [CBUUID UUIDWithString:@"5678"];
+//    CBUUID *characteristicUUID = [CBUUID UUIDWithString:@"5678"];
 
 //    CBMutableCharacteristic *characteristic = [[CBMutableCharacteristic alloc] initWithType:characteristicUUID properties:CBCharacteristicPropertyRead value:nil permissions:CBAttributePermissionsReadable];
 
