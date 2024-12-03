@@ -29,6 +29,10 @@ Pod::Spec.new do |s|
     #s.dependency       'SDWebImage'
   #s.dependency       'Masonry'
   
+    s.pod_target_xcconfig = {
+     'DEFINES_MODULE' => 'YES'
+  }
+  
 end
 
 #验证
