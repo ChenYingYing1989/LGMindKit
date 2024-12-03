@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'LGMindKit'
   s.version          = '0.1.0'
   s.platform     = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
   s.summary          = 'Your SDK short description.'
   s.description      = 'A longer description of your SDK.'
   s.homepage         = 'https://github.com/ChenYingYing1989/LGMindKit'
