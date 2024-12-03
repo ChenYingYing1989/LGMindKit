@@ -1,6 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'LGMindKit'
   s.version          = '0.1.0'
+  s.platform     = :ios
+  s.ios.deployment_target = '12.0'
   s.summary          = 'Your SDK short description.'
   s.description      = 'A longer description of your SDK.'
   s.homepage         = 'https://github.com/ChenYingYing1989/LGMindKit'
@@ -11,12 +13,9 @@ Pod::Spec.new do |s|
   # 确保资源文件路径正确
   s.resources = 'Classes/Assets.xcassets/**/*'
   
-  s.platform         = :ios, '12.0'
-  
-  #s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 armv7s arm64'}
-  
-  
-  #s.requires_arc     = true
+  s.xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64',}
+
+  s.requires_arc     = true
   
   
   
@@ -28,7 +27,7 @@ Pod::Spec.new do |s|
     #s.dependency       'MBProgressHUD'
     #s.dependency       'AFNetworking'
     #s.dependency       'SDWebImage'
-    #s.dependency       'Masonry'
+  s.dependency       'Masonry'
   
 end
 
