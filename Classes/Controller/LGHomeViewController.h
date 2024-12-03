@@ -6,11 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LGBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGHomeViewController : LGBaseViewController
+@interface LGHomeViewController : UIViewController
 
 @end
 

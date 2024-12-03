@@ -7,7 +7,7 @@
 
 #import "LGHomeViewController.h"
 #import "LGMindHomeController.h"
-@interface LGBaseViewController ()
+@interface LGHomeViewController ()
 
 
 @end
